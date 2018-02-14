@@ -2,7 +2,7 @@ from docx import Document
 from nltk.tokenize import sent_tokenize
 import re,os
 
-ORIGINALS_DIR = 'tazscripts - original'
+ORIGINALS_DIR = 'tazscripts - culled'
 OUTPUT_DIR = 'tazscripts - processed'
 
 def textToRemove(text):
@@ -26,6 +26,19 @@ def getSpeaker(paragraph,currentSpeaker):
             return potentialSpeaker.group()
     
     return currentSpeaker
+    
+def censor(sentence):
+    sentence = re.sub(r'fuck','fark',sentence,flags=re.I)
+    sentence = re.sub(r'shit','shoot',sentence,flags=re.I)
+    
+    #for damn, skip damnation
+    sentence = re.sub(r'damnation','danmation',sentence,flags=re.I)
+    sentence = re.sub(r'damn','dang',sentence,flags=re.I)
+    sentence = re.sub(r'danmation','damnation',sentence,flags=re.I)
+    
+    sentence = re.sub(r'bitch','dang',sentence,flags=re.I)
+    
+    return sentence
 
 if __name__ == '__main__':
     
@@ -66,7 +79,7 @@ if __name__ == '__main__':
                     span = (index+1,index+len(label)+1)
                     s += 1
                     
-                    sentPrint = '[' + label + '] ' + sent + '\n'
+                    sentPrint = '[' + label + '] ' + censor(sent) + '\n'
                     
                     f.write(sentPrint)
                     index += len(sentPrint)
