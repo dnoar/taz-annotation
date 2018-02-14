@@ -1,0 +1,39 @@
+<!ENTITY name "Annotation_Schema_TAZ_v1.0">
+
+<!--
+  ~ The Annotation Zone
+  ~ Dan Noar
+  ~ Will Tietz
+  ~ Irina Onoprienko
+  ~ Jamie Brandon
+  -->
+
+<!ELEMENT NON-GAME_RELATED ( #PCDATA ) >
+<!ATTLIST NON-GAME_RELATED type ( joke | reference | physical_event ) #REQUIRED> 
+
+<!ELEMENT NON-CONTENT ( #PCDATA ) >
+
+<!ELEMENT MECHANICS ( #PCDATA ) >
+<!ATTLIST MECHANICS type ( dice_rolls | rules | retcons ) #REQUIRED> 
+
+<!ELEMENT IN-CHARACTER_DIALOGUE ( #PCDATA ) >
+
+<!ELEMENT STAGE_DIRECTIONS ( #PCDATA ) >
+
+<!ELEMENT NARRATION_AND_DESCRIPTION ( #PCDATA ) >
+<!ATTLIST NARRATION_AND_DESCRIPTION type ( actions | events | description | lore_history_backstory ) #REQUIRED> 
+
+<!ELEMENT DECISION_MAKING ( #PCDATA ) >
+<!ATTLIST DECISION_MAKING type ( proposal | counterproposal | agreement | compromise | acting_without_consensus ) #REQUIRED> 
+
+<!ELEMENT DECISION EMPTY >
+<!-- this has default argument "from" and "to" -->
+<!ATTLIST DECISION proposal IDREF >
+<!ATTLIST DECISION counterproposal1 IDREF>
+<!ATTLIST DECISION counterproposal2 IDREF>
+<!ATTLIST DECISION counterproposal3 IDREF>
+<!ATTLIST DECISION counterproposal4 IDREF>
+<!ATTLIST DECISION agreement IDREF>
+<!ATTLIST DECISION compromise IDREF>
+<!ATTLIST DECISION acting_without_consensus IDREF>
+<!ATTLIST DECISION outcome IDREF #REQUIRED >
