@@ -26,7 +26,7 @@
 <!ATTLIST NARRATION question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION_MAKING ( #PCDATA ) >
-<!ATTLIST DECISION_MAKING type ( proposal | counterproposal | agreement | compromise | acting_without_consensus ) #REQUIRED> 
+<!ATTLIST DECISION_MAKING type ( proposal | counterproposal | clarification | agreement | compromise | acting_without_consensus ) #REQUIRED> 
 <!ATTLIST DECISION_MAKING question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION EMPTY >
@@ -34,7 +34,7 @@
 <!ATTLIST DECISION counterproposal1 IDREF >
 <!ATTLIST DECISION counterproposal2 IDREF >
 <!ATTLIST DECISION counterproposal3 IDREF >
-<!ATTLIST DECISION counterproposal4 IDREF >
+<!ATTLIST DECISION clarification IDREF >
 <!ATTLIST DECISION agreement IDREF >
 <!ATTLIST DECISION compromise IDREF >
 <!ATTLIST DECISION acting_without_consensus IDREF >
