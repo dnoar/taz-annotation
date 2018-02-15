@@ -4,6 +4,7 @@ import re,os
 
 ORIGINALS_DIR = 'tazscripts - culled'
 OUTPUT_DIR = 'tazscripts - processed'
+CENSOR = False
 
 def textToRemove(text):
     if text == '':
@@ -28,15 +29,19 @@ def getSpeaker(paragraph,currentSpeaker):
     return currentSpeaker
     
 def censor(sentence):
+
+    if not CENSOR:
+        return sentence
+        
     sentence = re.sub(r'fuck','fark',sentence,flags=re.I)
-    sentence = re.sub(r'shit','shoot',sentence,flags=re.I)
+    sentence = re.sub(r'shit','crap',sentence,flags=re.I)
     
     #for damn, skip damnation
     sentence = re.sub(r'damnation','danmation',sentence,flags=re.I)
     sentence = re.sub(r'damn','dang',sentence,flags=re.I)
     sentence = re.sub(r'danmation','damnation',sentence,flags=re.I)
     
-    sentence = re.sub(r'bitch','dang',sentence,flags=re.I)
+    sentence = re.sub(r'bitch','@&$#%',sentence,flags=re.I)
     
     return sentence
 
@@ -50,7 +55,7 @@ if __name__ == '__main__':
     
         with open(os.path.join(OUTPUT_DIR,fileBare + '.xml'),'w',encoding='utf8') as f:
             f.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-            f.write('<TAZTask>\n')
+            f.write('<Annotation_Schema_TAZ_v1.0>\n')
             f.write('<TEXT><![CDATA[\n')
             
             doc = Document(os.path.join(ORIGINALS_DIR,file))
@@ -85,10 +90,10 @@ if __name__ == '__main__':
                     index += len(sentPrint)
                     
                     if speaker == 'stage':
-                        tagList.append(('STAGE',str(span[0]),str(span[1]),label))
+                        tagList.append(('STAGE_DIRECTIONS',str(span[0]),str(span[1]),label))
                     
                     elif speaker not in ('griffin','justin','travis','clint'):
-                        tagList.append(('DIALOG',str(span[0]),str(span[1]),label))
+                        tagList.append(('IN-CHARACTER_DIALOGUE',str(span[0]),str(span[1]),label))
                         
             
             f.write(']]></TEXT>\n')
@@ -97,13 +102,13 @@ if __name__ == '__main__':
             stageID = 0
             dialogID = 0
             for type,spanBegin,spanEnd,label in tagList:
-                if type == 'STAGE':
+                if type == 'STAGE_DIRECTIONS':
                     id = 'S'+str(stageID)
                     stageID += 1
                 else:
-                    id = 'D'+str(dialogID)
+                    id = 'I'+str(dialogID)
                     dialogID += 1
                 f.write('<' + type + ' id="' + id + '" spans="' + spanBegin + '~' + spanEnd + '" text="' + label + '" />\n')
             
             f.write('</TAGS>\n')
-            f.write('</TAZTask>')
+            f.write('</Annotation_Schema_TAZ_v1.0>')
