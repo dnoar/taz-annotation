@@ -15,6 +15,7 @@
 
 <!ELEMENT MECHANICS ( #PCDATA ) >
 <!ATTLIST MECHANICS type ( dice_rolls | rules | retcons ) #REQUIRED> 
+<!ATTLIST MECHANICS question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT IN-CHARACTER_DIALOGUE ( #PCDATA ) >
 
@@ -22,18 +23,19 @@
 
 <!ELEMENT NARRATION_AND_DESCRIPTION ( #PCDATA ) >
 <!ATTLIST NARRATION_AND_DESCRIPTION type ( actions | events | description | lore_history_backstory ) #REQUIRED> 
+<!ATTLIST NARRATION question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION_MAKING ( #PCDATA ) >
 <!ATTLIST DECISION_MAKING type ( proposal | counterproposal | agreement | compromise | acting_without_consensus ) #REQUIRED> 
+<!ATTLIST DECISION_MAKING question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION EMPTY >
-<!-- this has default argument "from" and "to" -->
 <!ATTLIST DECISION proposal IDREF >
-<!ATTLIST DECISION counterproposal1 IDREF>
-<!ATTLIST DECISION counterproposal2 IDREF>
-<!ATTLIST DECISION counterproposal3 IDREF>
-<!ATTLIST DECISION counterproposal4 IDREF>
-<!ATTLIST DECISION agreement IDREF>
-<!ATTLIST DECISION compromise IDREF>
-<!ATTLIST DECISION acting_without_consensus IDREF>
+<!ATTLIST DECISION counterproposal1 IDREF >
+<!ATTLIST DECISION counterproposal2 IDREF >
+<!ATTLIST DECISION counterproposal3 IDREF >
+<!ATTLIST DECISION counterproposal4 IDREF >
+<!ATTLIST DECISION agreement IDREF >
+<!ATTLIST DECISION compromise IDREF >
+<!ATTLIST DECISION acting_without_consensus IDREF >
 <!ATTLIST DECISION outcome IDREF #REQUIRED >
