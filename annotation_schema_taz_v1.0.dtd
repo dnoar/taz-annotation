@@ -29,6 +29,7 @@
 <!ATTLIST DECISION_MAKING type ( proposal | counterproposal | clarification | agreement | compromise | acting_without_consensus ) #REQUIRED> 
 <!ATTLIST DECISION_MAKING question ( YES | NO ) #IMPLIED "NO">
 
+<!--
 <!ELEMENT DECISION EMPTY >
 <!ATTLIST DECISION proposal IDREF >
 <!ATTLIST DECISION counterproposal1 IDREF >
@@ -39,3 +40,4 @@
 <!ATTLIST DECISION compromise IDREF >
 <!ATTLIST DECISION acting_without_consensus IDREF >
 <!ATTLIST DECISION outcome IDREF #REQUIRED >
+-->
