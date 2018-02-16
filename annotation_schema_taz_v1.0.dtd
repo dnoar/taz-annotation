@@ -23,7 +23,7 @@
 
 <!ELEMENT NARRATION_AND_DESCRIPTION ( #PCDATA ) >
 <!ATTLIST NARRATION_AND_DESCRIPTION type ( actions | events | description | lore_history_backstory ) #REQUIRED> 
-<!ATTLIST NARRATION question ( YES | NO ) #IMPLIED "NO">
+<!ATTLIST NARRATION_AND_DESCRIPTION question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION_MAKING ( #PCDATA ) >
 <!ATTLIST DECISION_MAKING type ( proposal | counterproposal | clarification | agreement | compromise | acting_without_consensus ) #REQUIRED> 
