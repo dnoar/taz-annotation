@@ -16,7 +16,7 @@ def textToRemove(text):
     return False
 
 def getSpeaker(paragraph,currentSpeaker):
-    if paragraph.text[0] == '[' or re.fullmatch(r'\w+: \[\w+\]',paragraph.text.strip()):
+    if paragraph.text[0] == '[' or re.fullmatch(r'\w+: \[[\w\s]+\]',paragraph.text.strip()):
         return 'stage'
     firstRun = paragraph.runs[0]
     if firstRun.text == '\t':
