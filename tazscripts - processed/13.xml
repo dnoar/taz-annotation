@@ -1449,8 +1449,9 @@
 <IN-CHARACTER_DIALOGUE id="I338" spans="53762~53766" text="s960" />
 <IN-CHARACTER_DIALOGUE id="I339" spans="53881~53885" text="s961" />
 <STAGE_DIRECTIONS id="S64" spans="54059~54063" text="s964" />
+<STAGE_DIRECTIONS id="S65" spans="54104~54108" text="s966" />
 <IN-CHARACTER_DIALOGUE id="I340" spans="54865~54869" text="s985" />
-<STAGE_DIRECTIONS id="S65" spans="56254~56259" text="s1007" />
-<STAGE_DIRECTIONS id="S66" spans="58016~58021" text="s1031" />
+<STAGE_DIRECTIONS id="S66" spans="56254~56259" text="s1007" />
+<STAGE_DIRECTIONS id="S67" spans="58016~58021" text="s1031" />
 </TAGS>
 </Annotation_Schema_TAZ_v1.0>
