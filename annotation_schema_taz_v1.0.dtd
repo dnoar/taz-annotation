@@ -6,6 +6,18 @@
   ~ Will Tietz
   ~ Irina Onoprienko
   ~ Jamie Brandon
+  
+  ~ Commented out until we figure out the best way to do linking
+  ~ <!ELEMENT DECISION EMPTY >
+  ~ <!ATTLIST DECISION proposal IDREF >
+  ~ <!ATTLIST DECISION counterproposal1 IDREF >
+  ~ <!ATTLIST DECISION counterproposal2 IDREF >
+  ~ <!ATTLIST DECISION counterproposal3 IDREF >
+  ~ <!ATTLIST DECISION clarification IDREF >
+  ~ <!ATTLIST DECISION agreement IDREF >
+  ~ <!ATTLIST DECISION compromise IDREF >
+  ~ <!ATTLIST DECISION acting_without_consensus IDREF >
+  ~ <!ATTLIST DECISION outcome IDREF #REQUIRED >
   -->
 
 <!ELEMENT NON-GAME_RELATED ( #PCDATA ) >
@@ -23,21 +35,8 @@
 
 <!ELEMENT NARRATION_AND_DESCRIPTION ( #PCDATA ) >
 <!ATTLIST NARRATION_AND_DESCRIPTION type ( actions | events | description | lore_history_backstory ) #REQUIRED> 
-<!ATTLIST NARRATION question ( YES | NO ) #IMPLIED "NO">
+<!ATTLIST NARRATION_AND_DESCRIPTION question ( YES | NO ) #IMPLIED "NO">
 
 <!ELEMENT DECISION_MAKING ( #PCDATA ) >
 <!ATTLIST DECISION_MAKING type ( proposal | counterproposal | clarification | agreement | compromise | acting_without_consensus ) #REQUIRED> 
 <!ATTLIST DECISION_MAKING question ( YES | NO ) #IMPLIED "NO">
-
-<!--
-<!ELEMENT DECISION EMPTY >
-<!ATTLIST DECISION proposal IDREF >
-<!ATTLIST DECISION counterproposal1 IDREF >
-<!ATTLIST DECISION counterproposal2 IDREF >
-<!ATTLIST DECISION counterproposal3 IDREF >
-<!ATTLIST DECISION clarification IDREF >
-<!ATTLIST DECISION agreement IDREF >
-<!ATTLIST DECISION compromise IDREF >
-<!ATTLIST DECISION acting_without_consensus IDREF >
-<!ATTLIST DECISION outcome IDREF #REQUIRED >
--->
