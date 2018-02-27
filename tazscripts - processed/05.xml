@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Annotation_Schema_TAZ_v1.0>
+<Annotation_Schema_TAZ_v1.2>
 <TEXT><![CDATA[
 [s0] Justin: Is - so there’s a big door, is that the only exit the one that -
 [s1] Griffin: Yeah well I’ll set up - I’ll set up the scene.
@@ -1633,4 +1633,4 @@ hand, a silvery glove.
 <IN-CHARACTER_DIALOGUE id="I362" spans="61898~61903" text="s1200" />
 <IN-CHARACTER_DIALOGUE id="I363" spans="61918~61923" text="s1201" />
 </TAGS>
-</Annotation_Schema_TAZ_v1.0>
+</Annotation_Schema_TAZ_v1.2>

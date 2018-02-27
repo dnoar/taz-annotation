@@ -16,8 +16,12 @@ def textToRemove(text):
     return False
 
 def getSpeaker(paragraph,currentSpeaker):
-    if paragraph.text[0] == '[' or re.fullmatch(r'\w+: \[[\w\s]+\]',paragraph.text.strip()):
+    text = paragraph.text
+    if text[0] == '[' or re.fullmatch(r'\w+: \[[\w\s]+\]',text.strip()):
         return 'stage'
+    potentialSpeaker = text[:text.find(':')].strip()
+    if potentialSpeaker != '' and potentialSpeaker != text.strip():
+        return potentialSpeaker.split()[0]
     firstRun = paragraph.runs[0]
     if firstRun.text == '\t':
         firstRun = paragraph.runs[1]
@@ -55,7 +59,7 @@ if __name__ == '__main__':
     
         with open(os.path.join(OUTPUT_DIR,fileBare + '.xml'),'w',encoding='utf8') as f:
             f.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-            f.write('<Annotation_Schema_TAZ_v1.0>\n')
+            f.write('<Annotation_Schema_TAZ_v1.2>\n')
             f.write('<TEXT><![CDATA[\n')
             
             doc = Document(os.path.join(ORIGINALS_DIR,file))
@@ -111,4 +115,4 @@ if __name__ == '__main__':
                 f.write('<' + type + ' id="' + id + '" spans="' + spanBegin + '~' + spanEnd + '" text="' + label + '" />\n')
             
             f.write('</TAGS>\n')
-            f.write('</Annotation_Schema_TAZ_v1.0>')
+            f.write('</Annotation_Schema_TAZ_v1.2>')

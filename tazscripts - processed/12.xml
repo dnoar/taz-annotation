@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Annotation_Schema_TAZ_v1.0>
+<Annotation_Schema_TAZ_v1.2>
 <TEXT><![CDATA[
 [s0] Griffin: So the three of you have just checked in with Tom Bodett--one of the Tom Bodetts, one of the many, many animatronic Tom Bodetts that occupy Rockport--uh, and, uh, have boarded the train.
 [s1] Um, you walk in through a door to the main passenger car compartment--
@@ -1989,4 +1989,4 @@
 <IN-CHARACTER_DIALOGUE id="I725" spans="61100~61105" text="s1178" />
 <IN-CHARACTER_DIALOGUE id="I726" spans="61127~61132" text="s1179" />
 </TAGS>
-</Annotation_Schema_TAZ_v1.0>
+</Annotation_Schema_TAZ_v1.2>

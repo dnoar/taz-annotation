@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Annotation_Schema_TAZ_v1.0>
+<Annotation_Schema_TAZ_v1.2>
 <TEXT><![CDATA[
 [s0] Griffin: Let it begin...let the-
 [s1] Taako: What?
@@ -1381,9 +1381,8 @@
 <IN-CHARACTER_DIALOGUE id="I253" spans="37683~37687" text="s559" />
 <IN-CHARACTER_DIALOGUE id="I254" spans="38183~38187" text="s570" />
 <IN-CHARACTER_DIALOGUE id="I255" spans="38454~38458" text="s575" />
-<IN-CHARACTER_DIALOGUE id="I256" spans="38786~38790" text="s581" />
 <STAGE_DIRECTIONS id="S19" spans="38968~38972" text="s583" />
-<IN-CHARACTER_DIALOGUE id="I257" spans="39030~39034" text="s584" />
+<IN-CHARACTER_DIALOGUE id="I256" spans="39030~39034" text="s584" />
 <STAGE_DIRECTIONS id="S20" spans="42217~42221" text="s630" />
 <STAGE_DIRECTIONS id="S21" spans="44038~44042" text="s649" />
 <STAGE_DIRECTIONS id="S22" spans="44280~44284" text="s659" />
@@ -1391,7 +1390,6 @@
 <STAGE_DIRECTIONS id="S24" spans="45893~45897" text="s688" />
 <STAGE_DIRECTIONS id="S25" spans="46705~46709" text="s704" />
 <STAGE_DIRECTIONS id="S26" spans="48664~48668" text="s753" />
-<IN-CHARACTER_DIALOGUE id="I258" spans="48756~48760" text="s756" />
 <STAGE_DIRECTIONS id="S27" spans="49623~49627" text="s776" />
 <STAGE_DIRECTIONS id="S28" spans="49991~49995" text="s786" />
 <STAGE_DIRECTIONS id="S29" spans="50127~50131" text="s787" />
@@ -1406,15 +1404,15 @@
 <STAGE_DIRECTIONS id="S38" spans="56682~56686" text="s933" />
 <STAGE_DIRECTIONS id="S39" spans="57537~57541" text="s952" />
 <STAGE_DIRECTIONS id="S40" spans="58079~58083" text="s962" />
-<IN-CHARACTER_DIALOGUE id="I259" spans="58303~58307" text="s967" />
-<IN-CHARACTER_DIALOGUE id="I260" spans="58369~58373" text="s968" />
-<IN-CHARACTER_DIALOGUE id="I261" spans="58381~58385" text="s969" />
 <STAGE_DIRECTIONS id="S41" spans="58689~58693" text="s978" />
-<IN-CHARACTER_DIALOGUE id="I262" spans="58904~58908" text="s984" />
 <STAGE_DIRECTIONS id="S42" spans="59680~59684" text="s999" />
 <STAGE_DIRECTIONS id="S43" spans="59993~59998" text="s1009" />
 <STAGE_DIRECTIONS id="S44" spans="61978~61983" text="s1058" />
+<IN-CHARACTER_DIALOGUE id="I257" spans="63541~63546" text="s1080" />
+<IN-CHARACTER_DIALOGUE id="I258" spans="63629~63634" text="s1081" />
+<IN-CHARACTER_DIALOGUE id="I259" spans="63682~63687" text="s1082" />
+<IN-CHARACTER_DIALOGUE id="I260" spans="63732~63737" text="s1083" />
 <STAGE_DIRECTIONS id="S45" spans="64399~64404" text="s1098" />
 <STAGE_DIRECTIONS id="S46" spans="64544~64549" text="s1102" />
 </TAGS>
-</Annotation_Schema_TAZ_v1.0>
+</Annotation_Schema_TAZ_v1.2>
