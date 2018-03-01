@@ -20,7 +20,7 @@ def getSpeaker(paragraph,currentSpeaker):
     if text[0] == '[' or re.fullmatch(r'\w+: \[[\w\s]+\]',text.strip()):
         return 'stage'
     potentialSpeaker = text[:text.find(':')].strip()
-    if potentialSpeaker != '' and potentialSpeaker != text.strip():
+    if potentialSpeaker != '' and potentialSpeaker != text[:-1].strip():
         return potentialSpeaker.split()[0]
     firstRun = paragraph.runs[0]
     if firstRun.text == '\t':
