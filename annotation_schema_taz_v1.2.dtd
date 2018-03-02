@@ -9,8 +9,8 @@
   -->
 
 <!ELEMENT RENEGE EMPTY >
-<!ATTLIST RENEGE action IDREF #REQUIRED>
-<!ATTLIST RENEGE retcon IDREF #REQUIRED>
+<!ATTLIST RENEGE arg0 IDREF prefix="fake_action" #REQUIRED >
+<!ATTLIST RENEGE arg1 IDREF prefix="retcon" #REQUIRED >
 
 <!ELEMENT DECISION_MAKING ( #PCDATA ) >
 <!ATTLIST DECISION_MAKING type ( proposal | counterproposal | clarification | agreement | compromise | acting_without_consensus ) #REQUIRED> 
