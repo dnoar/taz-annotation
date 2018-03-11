@@ -1,4 +1,21 @@
+"""
+The Annotation Zone
+    Jamie Brandon
+    Dan Noar
+    Irina Onoprienko
+    Will Tietz
 
+Script to put compare tags from 3 annotators in an excel spreadsheet
+
+To Do:
+    Make contingency tables for all 3 pairs of annotators and calculate kappa for each pair
+    Start showing agreement for subtags, decision making, and questions
+    Update to work with 2 annotators
+    Update to work with 4 annotators
+    Find and display pairwise agreement total per tag
+    Calculate predicated agreement based on each users distribution of tags
+"""
+    
 from openpyxl import Workbook
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -8,31 +25,42 @@ class XML_comp():
     def __init__(self):
         self.sents = []
         self.sent_nums = []
+        self.hum_sent_nums = []     # only human tagged sentences
         # main tags = 'NARRATION_AND_DESCRIPTION', 'ABOUT_THE_GAME', 'MECHANICS', 'NON-GAME_RELATED', 'NON-CONTENT'
         # main types is subtags from main tags
+        # main is both tag and subtag
         # dec main = descision making or not
         # dec type is subtag for decision making
-        # decision is both decision making and it's subtag
-        dict_types = ['main tag', 'main type', 'question', 'decision', 'dec main', 'dec type', 'renege']
+        # decision is both decision making and its subtag
+        dict_types = ['main tag', 'main type', 'main', 'question', 'decision', 'dec main', 'dec type', 'renege']
         self.annot1 = {}
+        self.annot2 = {}
+        self.annot3 = {}
+        self.agree = {} #pariwise agreement counter
+        # set values for each tag type
+        # for the annotator dictionaries it is a default dict with sent# (eg 's42') and tag as value
         for name in dict_types:
             self.annot1[name] = defaultdict(lambda: " ")
-        self.annot2 = defaultdict(lambda: defaultdict(lambda: " "))
-        for name in dict_types:
             self.annot2[name] = defaultdict(lambda: " ")
-        self.annot3 = defaultdict(lambda: defaultdict(lambda: " "))
-        for name in dict_types:
             self.annot3[name] = defaultdict(lambda: " ")
-        self.agree = {} #pariwise agreement counter
-        for name in dict_types:
             self.agree[name] = 0
         self.wb = Workbook()
     def find_data1(self, file_name):
+        """
+        Reads an xml file and puts its data in annot1
+        Also determines builds a list of sentences
+        """
+        # read xml file as element tree
         f = ET.parse(file_name)
         root = f.getroot()
-        text = root[0]
-        tags = root[1]
+        text = root[0]      #everything between <TEXT> </TEXT>
+        tags = root[1]      #everything between <TAGS> </TAGS>
+        # make list of sentences
         self.sents = text.text.split('\n')
+        # each child is a tag
+        # child.tag is the name of the tag, eg "DECISION_MAKING" or "ABOUT_THE_GAME"
+        # the 'text' attribute is the tagged text (hopefully the sentence number)
+        # the 'type' attribute is the subtag
         for child in tags:
             if child.tag == 'DECISION_MAKING':
                 self.annot1['decision'][child.attrib['text']] = child.tag + ': ' + child.attrib['type']
@@ -42,16 +70,26 @@ class XML_comp():
                 self.annot1['renege'][child.attrib['fromText']] = child.attrib['toText']
             else:
                 self.annot1['main tag'][child.attrib['text']] = child.tag
+                # these things don't always exist, so don't add them if they don't
                 try:
                     self.annot1['question'][child.attrib['text']] = child.attrib['question']
                     self.annot1['main type'][child.attrib['text']] = child.attrib['type']
-                except:
+                except KeyError:
                     pass
+        # add retconed sentence to retcon subtag
         for sent in self.annot1['main type']:
             if self.annot1['main type'][sent] == 'retcon':
                 self.annot1['main type'][sent] += ": " + re.findall(r's.*$', self.annot1['renege'][sent])[0]
+        # sorted list of sentence numbers
         self.sent_nums = sorted([int(x[1:]) for x in self.annot1['main tag'].keys()])
+        # and narrow down on human tagged things
+        tags = ['NARRATION_AND_DESCRIPTION', 'ABOUT_THE_GAME', 'MECHANICS', 'NON-GAME_RELATED', 'NON-CONTENT']
+        self.hum_sent_nums = sorted([int(x[1:]) for x in self.annot1['main tag'].keys() if self.annot1['main tag'][x] in tags])
     def find_data2(self, file_name):
+        """
+        Reads an xml file and puts its data in annot2
+        See find_data1 for comments
+        """
         f = ET.parse(file_name)
         root = f.getroot()
         text = root[0]
@@ -74,6 +112,10 @@ class XML_comp():
             if self.annot2['main type'][sent] == 'retcon':
                 self.annot2['main type'][sent] += ": " + re.findall(r's.*$', self.annot2['renege'][sent])[0]
     def find_data3(self, file_name):
+        """
+        Reads an xml file and puts its data in annot3
+        See find_data1 for comments
+        """
         f = ET.parse(file_name)
         root = f.getroot()
         text = root[0]
@@ -98,9 +140,11 @@ class XML_comp():
     def print_to_excel(self, file_name):
         ws = self.wb.active
         ws.title = "Data"
+        # columns headers
         ws.cell(row=1, column=4, value="annotator 1")
-        ws.cell(row=1, column=10, value="annotator 2")
-        ws.cell(row=2, column=1, value="sent")
+        ws.cell(row=1, column=9, value="annotator 2")
+        ws.cell(row=1, column=14, value="annotator 3")
+        ws.cell(row=2, column=1, value="sent#")
         ws.cell(row=2, column=2, value="tag")
         ws.cell(row=2, column=3, value="type")
         ws.cell(row=2, column=4, value="decision")
@@ -119,6 +163,7 @@ class XML_comp():
         ws.cell(row=2, column=17, value="agree")
         ws.cell(row=2, column=18, value="sent")
         row = 3
+        # print each human tagged sentence with its tags
         for num in self.sent_nums:
             sent = "s" + str(num)
             if self.annot1['main tag'][sent] != 'IN-CHARACTER_DIALOGUE' and self.annot1['main tag'][sent] != 'STAGE_DIRECTIONS':
@@ -140,10 +185,15 @@ class XML_comp():
                 ws.cell(row=row, column=16, value=self.annot3['question'][sent])
                 ws.cell(row=row, column=17, value=self.agree_check(sent))
                 ws.cell(row=row, column=18, value=self.sents[num+1])
+                # call self.color to color everything
                 self.color(row, sent, ws)
                 row += 1
         self.wb.save(file_name)
     def agree_check(self, sent):
+        """
+        checks if there is universal agreement for every tag
+        returns yes or no since that is what should be printed in excel
+        """
         if self.annot1['main tag'][sent] == self.annot2['main tag'][sent] == self.annot3['main tag'][sent] and \
         self.annot1['main type'][sent] == self.annot2['main type'][sent] == self.annot3['main type'][sent] and \
         self.annot1['question'][sent] == self.annot2['question'][sent] == self.annot3['question'][sent] and \
@@ -152,6 +202,9 @@ class XML_comp():
         else:
             return "no"
     def color(self, row, sent, ws):
+        """
+        colors everything, uses color_helper to check agreement
+        """
         self.color_helper('main tag', 2, row, sent, ws)
         self.color_helper('main type', 3, row, sent, ws)
         self.color_helper('dec main', 4, row, sent, ws)
@@ -162,6 +215,9 @@ class XML_comp():
         else:
             ws.cell(row=row, column=17).style = 'Bad'
     def color_helper(self, tag, col, row, sent, ws):
+        """
+        determines how much agreement there is and colors the attribute accordingly
+        """
         if self.annot1[tag][sent] == self.annot2[tag][sent] == self.annot3[tag][sent]:
             ws.cell(row=row, column=col).style = 'Good'
             ws.cell(row=row, column=col+5).style = 'Good'
@@ -192,7 +248,6 @@ class XML_comp():
         for sent in self.annot1['main tag']:
             if self.annot1['main tag'][sent] != 'IN-CHARACTER_DIALOGUE' and self.annot1['main tag'][sent] != 'STAGE_DIRECTIONS':
                 matrix[(self.annot1['main tag'][sent], self.annot2['main tag'][sent])] += 1
-                total += 1
         ws = self.wb.create_sheet("tables")
         ws.cell(row=1, column=2, value='NARRATION_AND_DESCRIPTION')
         ws.cell(row=1, column=3, value='ABOUT_THE_GAME')
@@ -241,12 +296,12 @@ class XML_comp():
         ws.cell(row=11, column=6, value='P(tag)')
         rows = 12
         for tag in tags:
-            ws.cell(row=rows, column=6, value='=E'+str(rows)+'/'+str(3*total))
+            ws.cell(row=rows, column=6, value='=E'+str(rows)+'/'+str(3*len(self.hum_sent_nums)))
             rows += 1
         ws.cell(row=17, column=5, value='chance:')
         ws.cell(row=17, column=6, value='=F12^2+F13^2+F14^2+F15^2+F16^2')
         ws.cell(row=18, column=5, value='observed')
-        ws.cell(row=18, column=6, value=self.agree['main tag']/(3*total))
+        ws.cell(row=18, column=6, value=self.agree['main tag']/(3*len(self.hum_sent_nums)))
         ws.cell(row=19, column=5, value='κ')
         ws.cell(row=19, column=6, value='=(F18-F17)/(1-F17)')
         self.wb.save(file_name)
@@ -257,6 +312,6 @@ if __name__ == '__main__':
     thingy.find_data2('21-annotated.xml')
     thingy.find_data1('21-D-Will.xml')
     thingy.find_data3('21-Jamie.xml')
-    thingy.print_to_excel('data21-D.xlsx')
-    thingy.confusion_tags('data21-D.xlsx')
+    thingy.print_to_excel('test.xlsx')
+    thingy.confusion_tags('test.xlsx')
     
