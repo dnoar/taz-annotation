@@ -1,0 +1,6 @@
+Hi F***ML, this is where you'll find new work to do.
+
+For now you're all getting the same file, 29.xml, so you can just see it in this directory.
+
+When you're done annotating please add it to this directory with the name <episode#>-<your first name>.xml
+So if I was annotating 29.xml, I would upload it as 29-will.xml
