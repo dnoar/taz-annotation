@@ -1635,6 +1635,12 @@
 <NARRATION_AND_DESCRIPTION id="N300" spans="67509~67514" text="s1329" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N301" spans="67546~67551" text="s1330" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N302" spans="67714~67719" text="s1333" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N9" spans="34034~34038" text="s748" question="NO" type="description" />
+<NARRATION_AND_DESCRIPTION id="N12" spans="41883~41887" text="s896" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N13" spans="50935~50940" text="s1073" type="events" question="YES" />
+<NARRATION_AND_DESCRIPTION id="N19" spans="52461~52466" text="s1099" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N36" spans="54278~54283" text="s1135" question="NO" type="description" />
+<NARRATION_AND_DESCRIPTION id="N40" spans="54514~54519" text="s1139" question="NO" type="description" />
 <ABOUT_THE_GAME id="A0" spans="2~4" text="s0" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A1" spans="55~57" text="s1" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A2" spans="74~76" text="s2" question="NO" type="comments" />
@@ -1940,6 +1946,17 @@
 <ABOUT_THE_GAME id="A333" spans="68039~68044" text="s1339" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A334" spans="68058~68063" text="s1340" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A335" spans="68121~68126" text="s1341" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A22" spans="6289~6293" text="s130" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A30" spans="6326~6330" text="s131" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A40" spans="8170~8174" text="s170" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A63" spans="10764~10768" text="s229" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A64" spans="10983~10987" text="s233" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A66" spans="12735~12739" text="s273" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A68" spans="21350~21354" text="s479" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A69" spans="24316~24320" text="s542" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A86" spans="24339~24343" text="s543" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A105" spans="28638~28642" text="s636" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A127" spans="55838~55843" text="s1161" question="NO" type="comments" />
 <MECHANICS id="M0" spans="1332~1335" text="s27" question="NO" />
 <MECHANICS id="M1" spans="2754~2757" text="s53" question="NO" />
 <MECHANICS id="M2" spans="2499~2502" text="s48" question="NO" />
@@ -2053,6 +2070,7 @@
 <NON-CONTENT id="NON22" spans="59959~59964" text="s1213"  />
 <NON-CONTENT id="NON23" spans="65648~65653" text="s1306"  />
 <NON-CONTENT id="NON24" spans="68230~68235" text="s1344"  />
+<NON-CONTENT id="NON25" spans="55763~55768" text="s1159"  />
 <IN-CHARACTER_DIALOGUE id="I0" spans="239~241" text="s6"  />
 <IN-CHARACTER_DIALOGUE id="I1" spans="255~257" text="s7"  />
 <IN-CHARACTER_DIALOGUE id="I2" spans="334~336" text="s9"  />

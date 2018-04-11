@@ -1421,6 +1421,12 @@
 <NARRATION_AND_DESCRIPTION id="N277" spans="67956~67961" text="s1148" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N278" spans="68058~68063" text="s1149" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N279" spans="68169~68174" text="s1150" question="NO" type="description" />
+<NARRATION_AND_DESCRIPTION id="N45" spans="10366~10370" text="s168" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N46" spans="11749~11753" text="s188" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N64" spans="13297~13301" text="s219" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N86" spans="13664~13668" text="s223" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N89" spans="45366~45370" text="s739" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N97" spans="59163~59167" text="s996" question="NO" type="description" />
 <ABOUT_THE_GAME id="A0" spans="176~178" text="s2" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A1" spans="201~203" text="s3" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A3" spans="2618~2621" text="s46" question="NO" type="recap" />
@@ -1673,6 +1679,7 @@
 <MECHANICS id="M39" spans="63682~63687" text="s1071" question="NO" />
 <MECHANICS id="M40" spans="63703~63708" text="s1072" question="NO" />
 <MECHANICS id="M41" spans="63751~63756" text="s1073" question="NO" />
+<MECHANICS id="M42" spans="13210~13214" text="s217" question="NO" />
 <NON-GAME_RELATED id="NO0" spans="322~324" text="s5"  />
 <NON-GAME_RELATED id="NO1" spans="230~232" text="s4"  />
 <NON-GAME_RELATED id="NO2" spans="441~443" text="s6"  />
@@ -1686,7 +1693,6 @@
 <NON-GAME_RELATED id="NO10" spans="893~896" text="s15"  />
 <NON-GAME_RELATED id="NO11" spans="923~926" text="s16"  />
 <NON-GAME_RELATED id="NO12" spans="1037~1040" text="s17"  />
-<NON-GAME_RELATED id="NO13" spans="1079~1081" text="s1"  />
 <NON-GAME_RELATED id="NO14" spans="1136~1139" text="s19"  />
 <NON-GAME_RELATED id="NO15" spans="1176~1179" text="s20"  />
 <NON-GAME_RELATED id="NO16" spans="1241~1244" text="s21"  />
@@ -1763,6 +1769,8 @@
 <NON-GAME_RELATED id="NO91" spans="42134~42138" text="s666"  />
 <NON-GAME_RELATED id="NO92" spans="42206~42210" text="s667"  />
 <NON-GAME_RELATED id="NO93" spans="42311~42315" text="s668"  />
+<NON-GAME_RELATED id="NO38" spans="1079~1082" text="s18"  />
+<NON-GAME_RELATED id="NO59" spans="1577~1580" text="s29"  />
 <NON-CONTENT id="NON0" spans="740~743" text="s10"  />
 <NON-CONTENT id="NON1" spans="3263~3266" text="s53"  />
 <NON-CONTENT id="NON2" spans="8347~8351" text="s147"  />
