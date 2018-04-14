@@ -40,14 +40,19 @@ class adjudicate():
             for sent_num in self.sent_nums:
                 try:
                     if self.annotA[sent_num].tag == self.annotB[sent_num].tag:
-                        if self.annotA[sent_num].attrib['type'] == 'retcon' \
-                                or self.annotA[sent_num].attrib['type'] == 'retcon':
-                            f.write(sent_num + " retcon: check renege tag\n")
+                        # if there is no attribute...
+                        if self.annotA[sent_num].tag in {'MECHANICS', 'NON-GAME_RELATED', 'NON-CONTENT', 'STAGE_DIRECTIONS', 'IN-CHARACTER_DIALOGUE'}:
+                            self.GS[sent_num] = self.annotA[sent_num]
                         else:
-                            if self.annotA[sent_num].attrib['type'] == self.annotB[sent_num].attrib['type']:
-                                self.GS[sent_num] = self.annotA[sent_num]
+                            # if there is an attribute...
+                            if self.annotA[sent_num].attrib['type'] == 'retcon' \
+                                    or self.annotA[sent_num].attrib['type'] == 'retcon':
+                                f.write(sent_num + " retcon: check renege tag\n")
                             else:
-                                f.write(sent_num + " type difference\n")
+                                if self.annotA[sent_num].attrib['type'] == self.annotB[sent_num].attrib['type']:
+                                    self.GS[sent_num] = self.annotA[sent_num]
+                                else:
+                                    f.write(sent_num + " type difference\n")
                     else:
                         # write it to a file so we know to clean this up
                         f.write(sent_num + "\n")
@@ -60,7 +65,7 @@ class adjudicate():
         # write tags to GS file
         with open(outfile, "w+") as f:
             for k in self.GS:
-                f.write(tag_to_string(self.annotA[k]))
+                f.write(tag_to_string(self.GS[k]))
 
     def read_file(self, file):
         '''Reads in xml file'''
@@ -102,10 +107,10 @@ def tag_to_string(tag):
 
 
 if __name__ == '__main__':
-    episode_number = '31'
     # if you trust one annotators type judgements over another's, make the trustworthy one A
-    annotA = "Bingyang"
-    annotB = "danielle"
+    annotA = "Kirsten"
+    annotB = "Bingyang"
+    episode_number = '35'
     a = adjudicate("Annotators/" + episode_number + "_" + annotA + ".xml",
                    "Annotators/" + episode_number + "_" + annotB + ".xml")
     a.compare_sents("gold_standard/" + episode_number + "_to_check.txt")
