@@ -1573,6 +1573,7 @@
 <NARRATION_AND_DESCRIPTION id="N80" spans="66844~66849" text="s1317" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N83" spans="67129~67134" text="s1320" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N84" spans="67714~67719" text="s1333" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N18" spans="49593~49598" text="s1042" question="NO" type="description" />
 <ABOUT_THE_GAME id="A0" spans="2~4" text="s0" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A1" spans="55~57" text="s1" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A2" spans="74~76" text="s2" question="NO" type="comments" />
@@ -1915,6 +1916,10 @@
 <ABOUT_THE_GAME id="A346" spans="67546~67551" text="s1330" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A347" spans="67821~67826" text="s1334" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A348" spans="67876~67881" text="s1335" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A42" spans="28638~28642" text="s636" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A62" spans="44074~44078" text="s942" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A81" spans="44588~44592" text="s953" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A128" spans="44643~44647" text="s954" question="NO" type="comments" />
 <MECHANICS id="M0" spans="1332~1335" text="s27" question="NO" />
 <MECHANICS id="M5" spans="4166~4169" text="s88" question="NO" />
 <MECHANICS id="M6" spans="4391~4394" text="s93" question="NO" />
@@ -1965,6 +1970,8 @@
 <MECHANICS id="M10" spans="45215~45219" text="s964" question="YES" />
 <MECHANICS id="M11" spans="45274~45278" text="s965" question="NO" />
 <MECHANICS id="M12" spans="45297~45301" text="s966" question="NO" />
+<MECHANICS id="M13" spans="44153~44157" text="s944" question="NO" />
+<MECHANICS id="M14" spans="44565~44569" text="s952" question="NO" />
 <NON-GAME_RELATED id="NO1" spans="2133~2136" text="s40"  />
 <NON-GAME_RELATED id="NO2" spans="2962~2965" text="s58"  />
 <NON-GAME_RELATED id="NO5" spans="25480~25484" text="s571"  />
@@ -2042,6 +2049,8 @@
 <NON-CONTENT id="NON39" spans="51327~51332" text="s1079"  />
 <NON-CONTENT id="NON40" spans="52060~52065" text="s1094"  />
 <NON-CONTENT id="NON41" spans="53043~53048" text="s1108"  />
+<NON-CONTENT id="NON20" spans="41560~41564" text="s890"  />
+<NON-CONTENT id="NON42" spans="44325~44329" text="s947"  />
 <IN-CHARACTER_DIALOGUE id="I0" spans="239~241" text="s6"  />
 <IN-CHARACTER_DIALOGUE id="I1" spans="255~257" text="s7"  />
 <IN-CHARACTER_DIALOGUE id="I2" spans="334~336" text="s9"  />
@@ -2686,6 +2695,8 @@
 <STAGE_DIRECTIONS id="S63" spans="23444~23448" text="s519"  />
 <STAGE_DIRECTIONS id="S64" spans="36218~36222" text="s786"  />
 <STAGE_DIRECTIONS id="S65" spans="59959~59964" text="s1213"  />
+<STAGE_DIRECTIONS id="S66" spans="35393~35397" text="s762"  />
+<STAGE_DIRECTIONS id="S67" spans="35562~35566" text="s767"  />
 <RENEGE id="R0" fake_actionID="N45" fake_actionText="s828" retconID="A245" retconText="s829" />
 <RENEGE id="R1" fake_actionID="N241" fake_actionText="s1185" retconID="A310" retconText="s1186" />
 <RENEGE id="R2" fake_actionID="N8" fake_actionText="s41" retconID="N17" retconText="s42" />

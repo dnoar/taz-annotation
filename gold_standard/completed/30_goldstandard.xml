@@ -1146,7 +1146,6 @@
 <NARRATION_AND_DESCRIPTION id="N26" spans="6482~6486" text="s107" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N27" spans="6530~6534" text="s108" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N28" spans="6560~6564" text="s109" question="NO" type="description" />
-<NARRATION_AND_DESCRIPTION id="N29" spans="6609~6613" text="s111" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N30" spans="6631~6635" text="s112" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N31" spans="6756~6760" text="s113" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N32" spans="7083~7087" text="s121" question="NO" type="events" />
@@ -1171,7 +1170,7 @@
 <NARRATION_AND_DESCRIPTION id="N51" spans="9677~9681" text="s150" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N52" spans="9731~9735" text="s151" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N53" spans="9879~9883" text="s154" question="NO" type="events" />
-<NARRATION_AND_DESCRIPTION id="N54" spans="9945~9950" text="[s155" question="YES" type="events" />
+<NARRATION_AND_DESCRIPTION id="N54" spans="9946~9950" text="s155" question="YES" type="events" />
 <NARRATION_AND_DESCRIPTION id="N55" spans="10692~10696" text="s173" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N56" spans="10763~10767" text="s174" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N57" spans="10886~10890" text="s175" question="NO" type="description" />
@@ -1214,7 +1213,6 @@
 <NARRATION_AND_DESCRIPTION id="N95" spans="16997~17001" text="s282" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N96" spans="17134~17138" text="s283" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N97" spans="17181~17185" text="s284" question="NO" type="description" />
-<NARRATION_AND_DESCRIPTION id="N101" spans="17423~17427" text="s289" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N102" spans="17507~17511" text="s291" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N103" spans="17604~17608" text="s294" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N104" spans="17690~17694" text="s295" question="YES" type="description" />
@@ -1316,7 +1314,6 @@
 <NARRATION_AND_DESCRIPTION id="N202" spans="28086~28090" text="s494" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N203" spans="28276~28280" text="s498" question="NO" type="actions" />
 <NARRATION_AND_DESCRIPTION id="N204" spans="28430~28434" text="s501" question="NO" type="actions" />
-<NARRATION_AND_DESCRIPTION id="N205" spans="28909~28913" text="s510" question="NO" type="actions" />
 <NARRATION_AND_DESCRIPTION id="N206" spans="28964~28968" text="s511" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N207" spans="29051~29055" text="s512" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N208" spans="29239~29243" text="s513" question="NO" type="description" />
@@ -1401,6 +1398,7 @@
 <NARRATION_AND_DESCRIPTION id="N289" spans="57741~57746" text="s1051" question="NO" type="description" />
 <NARRATION_AND_DESCRIPTION id="N290" spans="61155~61160" text="s1104" question="NO" type="events" />
 <NARRATION_AND_DESCRIPTION id="N291" spans="61215~61220" text="s1105" question="NO" type="events" />
+<NARRATION_AND_DESCRIPTION id="N69" spans="53304~53308" text="s982" question="NO" type="events" />
 <ABOUT_THE_GAME id="A0" spans="113~115" text="s1" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A1" spans="418~420" text="s5" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A2" spans="488~490" text="s6" question="NO" type="comments" />
@@ -1443,7 +1441,6 @@
 <ABOUT_THE_GAME id="A39" spans="10061~10065" text="s158" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A40" spans="10332~10336" text="s165" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A41" spans="11028~11032" text="s179" question="NO" type="comments" />
-<ABOUT_THE_GAME id="A42" spans="11082~11086" text="s180" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A43" spans="11082~11086" text="s180" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A44" spans="11116~11120" text="s181" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A45" spans="11292~11296" text="s185" question="NO" type="comments" />
@@ -1697,7 +1694,9 @@
 <ABOUT_THE_GAME id="A296" spans="61458~61463" text="s1111" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A297" spans="61543~61548" text="s1112" question="NO" type="comments" />
 <ABOUT_THE_GAME id="A298" spans="61583~61588" text="s1113" question="NO" type="comments" />
-<MECHANICS id="M0" spans="1484~1487" text="s23" question="NO" />
+<ABOUT_THE_GAME id="A77" spans="17381~17385" text="s288" type="comments" question="YES" />
+<ABOUT_THE_GAME id="A222" spans="17423~17427" text="s289" question="NO" type="comments" />
+<ABOUT_THE_GAME id="A223" spans="36139~36143" text="s649" question="NO" type="comments" />
 <MECHANICS id="M2" spans="10098~10102" text="s159" question="YES" />
 <MECHANICS id="M3" spans="10132~10136" text="s160" question="NO" />
 <MECHANICS id="M4" spans="10158~10162" text="s161" question="NO" />
@@ -1830,7 +1829,6 @@
 <NON-GAME_RELATED id="NO12" spans="11918~11922" text="s197"  />
 <NON-GAME_RELATED id="NO13" spans="12027~12031" text="s198"  />
 <NON-GAME_RELATED id="NO14" spans="12072~12076" text="s199"  />
-<NON-GAME_RELATED id="NO15" spans="17423~17427" text="s289"  />
 <NON-GAME_RELATED id="NO16" spans="17457~17461" text="s290"  />
 <NON-GAME_RELATED id="NO17" spans="29631~29635" text="s521"  />
 <NON-GAME_RELATED id="NO18" spans="29700~29704" text="s522"  />
@@ -1981,6 +1979,8 @@
 <NON-CONTENT id="NON108" spans="57130~57135" text="s1041"  />
 <NON-CONTENT id="NON109" spans="57356~57361" text="s1047"  />
 <NON-CONTENT id="NON110" spans="60453~60458" text="s1095"  />
+<NON-CONTENT id="NON0" spans="7744~7748" text="s128"  />
+<NON-CONTENT id="NON32" spans="40172~40176" text="s724"  />
 <IN-CHARACTER_DIALOGUE id="I0" spans="5003~5006" text="s81"  />
 <IN-CHARACTER_DIALOGUE id="I1" spans="5087~5090" text="s82"  />
 <IN-CHARACTER_DIALOGUE id="I2" spans="5246~5249" text="s83"  />
