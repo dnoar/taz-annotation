@@ -1,0 +1,7 @@
+main tag only
+
+features:
+speaker (from i, i+1, and i-1)
+words
+BOD
+EOD

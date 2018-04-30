@@ -1,0 +1,8 @@
+sub tags
+
+features:
+speaker (from i, i+1, and i-1)
+length (of i, i+1, and i-1)
+words
+BOD
+EOD

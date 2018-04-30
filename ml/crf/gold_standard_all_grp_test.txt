@@ -1,0 +1,764 @@
+NON-GAME_RELATED			I think we should kick things off with a little bit of initiative. I think we should take initiative in this new podcast episode we're recording.	Griffin
+NON-GAME_RELATED			I'm excited, this is my first time rolling my new dice.	Travis
+NON-GAME_RELATED			What are they, whalebone?	Griffin
+NON-GAME_RELATED			No, I got a beautiful translucent green emerald kind of thing.	Travis
+STAGE_DIRECTIONS			[rolls]	stage
+NON-GAME_RELATED			Aw, now they got stank on them!	Justin
+NON-GAME_RELATED			You got that elephant dick bone...carved--	Griffin
+MECHANICS		NO	And I rolled... a 15!	Travis
+ABOUT_THE_GAME	comments	NO	Good start!	Travis
+ABOUT_THE_GAME	comments	NO	Good work, dice!	Griffin
+MECHANICS		NO	I rolled a 15, but I roll another one.	Clint
+MECHANICS		NO	That's 17 total for me.	Travis
+NON-CONTENT			Oh. Right.	Clint
+MECHANICS		NO	I rolled a 15, plus... nothing.	Clint
+MECHANICS		NO	It's 12 for cha'boy.	Justin
+MECHANICS		YES	Huh?	Clint
+MECHANICS		NO	12... for cha'boy.	Justin
+MECHANICS		NO	Cha'boy gets 12... I just wrote 12.	Griffin
+ABOUT_THE_GAME	comments	NO	That's not your name, your name's Taako.	Griffin
+NON-CONTENT			Yeah. Who- All right, okay.	Justin
+MECHANICS		NO	How are you guys doing, while I roll four different initiatives?	Griffin
+NON-GAME_RELATED			Good, good.	Travis
+MECHANICS		NO	I think you can just round up, in the rules, the official rules, you just round-- average them, right?	Justin
+MECHANICS		NO	Yeah, sure, why not.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	So first in the order... well, before we do anything, these robots are just kind of cackling maniacally at you?	Griffin
+NON-CONTENT			Mmhm.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	I cackle right back!	Travis
+ABOUT_THE_GAME	comments	NO	A backle!	Travis
+NON-CONTENT			Hahahahahaha!	Travis
+NARRATION_AND_DESCRIPTION	events	YES	Now you're having a cackle battle?	Griffin
+ABOUT_THE_GAME	comments	NO	A cack-off.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	The one with a cannon for an arm says,	Griffin
+IN-CHARACTER_DIALOGUE			I've gotta say, I am so psyched for this rematch. I have been looking forward to this for, well, since I was vanquished. And I gotta say, I'm so glad to be here with you two bros! My two main men, Jenkins and Maarvey! I'm just so psyched to have this opportunity to whoop some, to whoop, to whoop their rudey-poo asses with you! Let's just have a good clean fight, and may the best robot win, I suppose!	Magic Brian
+IN-CHARACTER_DIALOGUE			Magic B?	Magnus
+IN-CHARACTER_DIALOGUE			Yes?	Magic Brian
+ABOUT_THE_GAME	comments	NO	Break!	Clint
+IN-CHARACTER_DIALOGUE			Are you a ghost in the machine?	Magnus
+IN-CHARACTER_DIALOGUE			It would seem that way. You kicked me very good. I remember the following. I cast a magic missile at you, Taako, and then you cast one back at me, and our friendship, our budding friendship was betrayed. I thought that we might have a good thing going, and I--	Magic Brian
+NARRATION_AND_DESCRIPTION	events	NO	He reaches, well, he can't reach into his pocket.	Griffin
+IN-CHARACTER_DIALOGUE			If I was still living, I would have reached into my pocket and shown you, I had a wedding invitation for you to come to my marriage ceremony.	Magic Brian
+NON-CONTENT			Oooh.	Clint
+ABOUT_THE_GAME	comments	NO	Awkward.	Clint
+IN-CHARACTER_DIALOGUE			And instead of RSVPing to it, you murdered me.	Magic Brian
+STAGE_DIRECTIONS			[all snickering]	stage
+IN-CHARACTER_DIALOGUE			What's death like?	Magnus
+IN-CHARACTER_DIALOGUE			It's pretty chill. You go there and you just kind of float around in a big pool made up of like, the sort of collective memories of everyone who's ever lived. It's like-- it's pretty chill actually. But I prefer living, and you know, I was so close to getting my hands on that sweet, sweet Phoenix Fire Gauntlet, so, you know, Daddy's gotta get his.	Magic Brian
+IN-CHARACTER_DIALOGUE			I mean, you guys could just go and... now you've got these new robot bodies. We don't have to fight and kill you again.	Magnus
+IN-CHARACTER_DIALOGUE			As good as that sounds-- I would love to get back to my usual sort of M.O., my daily routine... I have a beautiful garden that I need to go back and tend to, I have some--	Jenkins
+IN-CHARACTER_DIALOGUE			[sucks in air through his teeth] Oh...	Magnus
+IN-CHARACTER_DIALOGUE			---some begonias that I--	Jenkins
+IN-CHARACTER_DIALOGUE			[strained] Oh, no.	Magnus
+IN-CHARACTER_DIALOGUE			What's wrong?	Jenkins
+IN-CHARACTER_DIALOGUE			Uh, nothing, your garden is great.	Magnus
+IN-CHARACTER_DIALOGUE			How would you know how my-- oh, you've been tending to it since you murdered me?	Jenkins
+IN-CHARACTER_DIALOGUE			Yep. Totally.	Magnus
+IN-CHARACTER_DIALOGUE			It seems like the least you could do, after getting my ass thrown off the back of a moving train, is see to my plants and my begonias and my fruits and my lilies.	Jenkins
+IN-CHARACTER_DIALOGUE			Yep. They're all fine.	Magnus
+IN-CHARACTER_DIALOGUE			Are we fighting or what?	Taako
+STAGE_DIRECTIONS			[music starts]	stage
+NARRATION_AND_DESCRIPTION	events	NO	Jenkins says, uh,	Griffin
+IN-CHARACTER_DIALOGUE			Oh, yeah, we can-- let's move on to that. Cause I'm actually--	Jenkins
+IN-CHARACTER_DIALOGUE			I feel like, listen, I'm not here to dictate the narrative, but I feel like we've really explored your individual arcs pretty thoroughly. I'd like to get to the part where I shoot you in the chest with an acid arrow.	Taako
+IN-CHARACTER_DIALOGUE			It's too bad that you're going last in the initiative order, then.	Jenkins
+MECHANICS		NO	Jenkins actually goes first.	Griffin
+MECHANICS		YES	He beat a 17?	Travis
+ABOUT_THE_GAME	comments	NO	Horse apples.	Travis
+ABOUT_THE_GAME	comments	NO	Yeah, Jenkins kicked ass.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	Jenkins is this little robot, kind of spherical... he kind of looks like a Fry Guy a little bit, except that he has all these individually moving, waving wires. And then his fuse is sort of embedded in the middle of it, and you can see it behind a little circular window.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	His fuse starts to glow really brightly and some sparks start to shoot off of all those different wires that are poking out of his spherical body, and this weird wave and kind of like a, a supersonic sound comes out of him, and I'm gonna need all of you to roll a Wisdom saving throw.	Griffin
+MECHANICS		NO	Uh, Griffin, real quick before I do that.	Travis
+MECHANICS		YES	Yeah.) does this count as robots, which I have told the shield about before?	Would the Shield of Memories... (Griffin
+MECHANICS		NO	Yeah, this would count as robots.	Griffin
+MECHANICS		NO	3 for me.	Justin
+ABOUT_THE_GAME	comments	NO	Oh my Jesus, Justin!	Griffin
+ABOUT_THE_GAME	comments	NO	Yeah, not good.	Justin
+MECHANICS		NO	23 for me.	Clint
+MECHANICS		NO	12 for me.	Travis
+ABOUT_THE_GAME	comments	NO	Holy shit.	Griffin
+NON-CONTENT			Okay, uh... the good news--	Griffin
+MECHANICS		NO	12 is good, it's in the top 50%!	Travis
+NON-CONTENT			Yeah.	Griffin
+MECHANICS		NO	The good news is that Merle and Carey cleared their saving rolls.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	The spell didn't seem to have any effect on Noelle at all. The bad news is that Taako and Magnus, you have been Confused.	Griffin
+ABOUT_THE_GAME	comments	NO	Well, what else is new?	Travis
+MECHANICS		NO	This is a fun spell and we're gonna resolve it when we get to your turns. In fact, let's go ahead and get to the resolution right now, because Magnus, you're up next. Before you do anything, my friend, I need you to roll 1d10.	Griffin
+MECHANICS		NO	That's a 10.	Travis
+MECHANICS		NO	Oh shit, okay, you can act and move normally.	Griffin
+ABOUT_THE_GAME	comments	NO	Yeah! What was the deal?	Travis
+NARRATION_AND_DESCRIPTION	events	YES	What was that trying to do?	Travis
+ABOUT_THE_GAME	comments	NO	Well, let's not ruin it. Let's not ruin the surprise.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I'm going to charge the gorilla one.	Travis
+NON-CONTENT			Okay.)	(Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	And I'm gonna try to axe into that panel in the front with the fuse in it. So yeah, I guess I'll just like two-handed Railsplitter that shit.	(Griffin
+STAGE_DIRECTIONS			[dice]	stage
+ABOUT_THE_GAME	comments	NO	That is not good. That was a critical miss.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Yeah, you bring your axe down, you sort of do a horizontal hard chop, and that glass is made of way way way way sturdier stuff than you thought.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	It's basically like the shit that they put in those big tanks in aquariums. And you don't even leave a scuff mark on that shit.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	Okay well, time to try again with my second attack... [dice] That's a lot better, that's a 19 plus 7, 26.	Travis
+MECHANICS		NO	That's a mis-- no, just kidding, that's a hit.	Griffin
+ABOUT_THE_GAME	comments	NO	[Travis: Son of a bitch.]	Griffin
+MECHANICS		NO	Yeah, go ahead and roll damage.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I'm also going to use Goading Attack: when attack lands, dice plus damage equals Wisdom saving throw.	Travis
+MECHANICS		NO	On fail, target has Disadvantage on attack not against you.	Travis
+NON-CONTENT			Okay.	Griffin
+MECHANICS		NO	Well, yeah, I'll do the damage first so... 1d10 plus 6... That's another ten. So 16 damage, and then it would have to be a 22 Wisdom saving throw.	Travis
+MECHANICS		NO	Well that's-- that simply won't happen.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	He's-- I mean, Maarvey was not a smart man to begin with, and now he's inhabiting a giant gorilla robot body... [dice] Yeah, no.	Griffin
+NON-CONTENT			I, I do not save... [trails off indistinct]	Griffin
+MECHANICS		NO	Okay, so 16 damage, and then Disadvantage on any attack not against me.	Travis
+MECHANICS		NO	Okay, I'm gonna actually demand that you say something to goad him while you hit him.	Griffin
+IN-CHARACTER_DIALOGUE			Hey, do you remember how easy it was to kill you the first time? I plan on doing that again.	Magnus
+IN-CHARACTER_DIALOGUE			Yeah, you chopped me--	Maarvey
+IN-CHARACTER_DIALOGUE			[simultaneous] And we threw your body off a cliff! Off a cliff! Your loved ones will never find it. They probably have no idea you're even dead.	Magnus
+IN-CHARACTER_DIALOGUE			[simul] Hold up. Hold up. Hold the phone. Because right now what you just said? That was racist. Because I know me and Barbara sounded alike. But I'm Maarvey.	Maarvey
+IN-CHARACTER_DIALOGUE			Uh-huh...?	Magnus
+IN-CHARACTER_DIALOGUE			Bub, listen. Listen, bub. I-- Barbara told me the raw deal you gave him, when we were over on the other side, and it was rough stuff. You didn't throw me off--	Maarvey
+IN-CHARACTER_DIALOGUE			How did we kill you? I don't even remember.	Magnus
+IN-CHARACTER_DIALOGUE			You didn't throw me off a cliff or nothing. I'm too tough for that. You cut me in half!	Maarvey
+IN-CHARACTER_DIALOGUE			Oh! Yeah yeah yeah yeah yeah. Sorry. It didn't register. It wasn't even that big-- it wasn't even in my top 10 kills.	Magnus
+IN-CHARACTER_DIALOGUE			Well, let's see if I can make a mark in that book on my-- in my-- [stutters] fuck-- hey, fuck you!	Maarvey
+STAGE_DIRECTIONS			[laughter]	stage
+ABOUT_THE_GAME	comments	NO	Travis, you're fighting Paul Blart, Mall Cop...right now.	Justin
+NARRATION_AND_DESCRIPTION	events	YES	Did I do any specific damage to the glass panel?	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Uh, yeah, you left a big crack in it. You didn't get all the way into it, and there doesn't seem to be any kind of like-- soul juice leaking out of it, but you did crack it.	Griffin
+ABOUT_THE_GAME	comments	NO	Great.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Next in the order is Maarvey, who says,	Griffin
+IN-CHARACTER_DIALOGUE			You know what? Let's actually see if we can't start-- right-- let's see if we can't-- let me get my pen out and dip it in the old inkwell and start writing down something in my book--	Maarvey
+STAGE_DIRECTIONS			Magnus: [exaggerated snoring noises]	stage
+IN-CHARACTER_DIALOGUE			Hey, I'm doing my best out here!	Maarvey
+STAGE_DIRECTIONS			Magnus: [exaggerated snoring noises continue]	stage
+NARRATION_AND_DESCRIPTION	description	NO	He rears back one of his giant fists, this fist is like the size of your torso-- his frame like I said is like heavily armored, very tank-like, he's got these two sort of small bent legs that-- is not really holding up his frame as much as his two arms with these two giant fists at the end of them, is. And he doesn't seem to have any kind of like, discernable head. His fuse is just right in the middle of his body, and it is now cracked.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	But anyway he rears back one of these gigant-- ginormo fists- [crosstalk]	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I duck.	Travis
+ABOUT_THE_GAME	comments	YES	Weren't expecting that, were you?	Travis
+MECHANICS		NO	He hits you for... he rolls a 24?	Griffin
+MECHANICS		NO	That does hit.	Travis
+STAGE_DIRECTIONS			[dice]	stage
+NARRATION_AND_DESCRIPTION	events	NO	He hits you for 18 points of damage [Travis: That’s alright.] and he sends you flying backwards, make a Dexterity saving throw for me.	Griffin
+STAGE_DIRECTIONS			[dice]	stage
+ABOUT_THE_GAME	comments	NO	That's a critical miss. So far not great, new dice!	Travis
+NARRATION_AND_DESCRIPTION	events	NO	You land on your back and you slide a ways, so you are prone.	Griffin
+NON-CONTENT			Gotcha.	Travis
+MECHANICS		NO	Next in the order is Merle.	Griffin
+ABOUT_THE_GAME	comments	NO	Alright, this is the new Merle. This is the new, competent--	Clint
+ABOUT_THE_GAME	comments	NO	Oh boy, I'm very excited for this new Merle.	Griffin
+ABOUT_THE_GAME	comments	NO	––Well-read, confident, Merle. I will be throwing spells around like a dog shakin' off puddle water.	Clint
+ABOUT_THE_GAME	comments	YES	Is this your press conference--? "Hello, everybody--"	Griffin
+ABOUT_THE_GAME	comments	NO	This is the new-- Ladies and gentlemen, this is the new Merle… Highchurch.	Clint
+NARRATION_AND_DESCRIPTION	actions	NO	He casts Dispel Magic on his friend Taako to try to get rid of this Confusion that he has.	Clint
+ABOUT_THE_GAME	comments	NO	And with Dispel Magic, you choose one creature, he is a creature, so he -- chooses him--	Clint
+ABOUT_THE_GAME	comments	NO	I doubt that's how he prefers to be referred to, is as a creature-- unless that was his nickname in college.	Griffin
+ABOUT_THE_GAME	comments	NO	It's him, it's Taako.	Clint
+MECHANICS		NO	Any spell of 3rd level or lower on the target ends.	Clint
+ABOUT_THE_GAME	comments	NO	Period!	Travis
+NON-CONTENT			So.	Clint
+ABOUT_THE_GAME	comments	NO	That's been cast! Period!	Clint
+NON-CONTENT			Um, I really am...	Griffin
+ABOUT_THE_GAME	comments	NO	I wanna tell you something, Dad.	Griffin
+NON-CONTENT			I'm so--	Griffin
+ABOUT_THE_GAME	comments	NO	You're liking this?	Clint
+NON-GAME_RELATED			I like it, I'm so proud of you, you're learning how to play the game of Dungeons & Dragons, which is good because we've been doing it for a little over a year and a half now.	Griffin
+NON-GAME_RELATED			Yes, sir!	Clint
+MECHANICS		NO	Confusion is a fourth-level enchantment.	Griffin
+MECHANICS		NO	Well, I'm casting this in my sixth-level slot.	Clint
+MECHANICS		NO	You don't-- You definitely, definitely don't have that.	Griffin
+ABOUT_THE_GAME	comments	NO	For sure, defo defo for sure.	Justin
+MECHANICS		NO	Well then I-- I'm casting it as a fourth-level slot!	Clint
+NON-CONTENT			BECAUSE!	Clint
+MECHANICS		NO	For each spell of fourth level or higher on the target, make an ability check using your spellcasting ability!	Clint
+NON-CONTENT			…Ha ha ha ha!	Clint
+ABOUT_THE_GAME	comments	YES	[laughing] What is wrong with you?	Griffin
+ABOUT_THE_GAME	comments	NO	I'm confident!	Clint
+ABOUT_THE_GAME	comments	NO	He's so overjoyed that he almost knows what he's talking about!	Travis
+MECHANICS		NO	On a successful check, the spell ends.	Clint
+NON-CONTENT			So!	Clint
+NARRATION_AND_DESCRIPTION	events	NO	Consider the spell ended.	Clint
+MECHANICS		YES	Did you roll?	Travis
+MECHANICS		YES	Did you roll, did you do any of the shit?	Griffin
+NON-CONTENT			I'm getting ready to do... [crosstalk]	Clint
+ABOUT_THE_GAME	comments	NO	Yeah, that wasn't Dad misunderstanding, that was him being braggadocious. "Consider it ended!"	Justin
+ABOUT_THE_GAME	comments	NO	I'm preparing to do the shit.	Clint
+ABOUT_THE_GAME	comments	NO	Here comes the shit, everybody.	Justin
+MECHANICS		YES	What am I rolling?	Clint
+ABOUT_THE_GAME	comments	NO	Exactly.	Justin
+STAGE_DIRECTIONS			[indistinct, snorts]	stage
+MECHANICS		NO	A d20.	Griffin
+ABOUT_THE_GAME	comments	NO	Shut up, Justin.	Clint
+MECHANICS		NO	A d20. And it's a 3.	Clint
+MECHANICS		NO	3 on that one.	Justin
+MECHANICS		NO	And then I add my spell modifier... which I believe is a five.	Clint
+MECHANICS		NO	Six.	Griffin
+MECHANICS		NO	So it's a 9.	Clint
+NARRATION_AND_DESCRIPTION	events	NO	You did not... you didn't end shit, you didn't dispel shit from shit.	Griffin
+NARRATION_AND_DESCRIPTION	actions	YES	I-- how about a little, can I take the edge off of it, maybe?	Clint
+NARRATION_AND_DESCRIPTION	description	YES	Maybe he's a little less confused, maybe?	Clint
+NARRATION_AND_DESCRIPTION	description	NO	No. He's still very-- he's still like, really super duper duper confused.	Griffin
+ABOUT_THE_GAME	comments	NO	If anything, he's more confused because he just saw you waggle your fingers at him a bunch, and nothing happened.	Travis
+STAGE_DIRECTIONS			[Justin and Clint laugh]	stage
+NARRATION_AND_DESCRIPTION	events	NO	And literally nothing happened.	Griffin
+ABOUT_THE_GAME	comments	NO	Highly confusing.	Justin
+IN-CHARACTER_DIALOGUE			Hellooooo!	Taako
+NARRATION_AND_DESCRIPTION	events	NO	We do need to resolve the fact that Taako, when you were Confused, the spell you were channeling to summon Garyl ended, and he vanished underneath Magnus.	Griffin
+ABOUT_THE_GAME	comments	NO	Which would've been hilarious if we had thought of it at the time.	Griffin
+NON-CONTENT			But--	Griffin
+ABOUT_THE_GAME	comments	NO	Give him an exit line! Let Garyl at least have an exit line.	Clint
+NON-CONTENT			Sure.	Justin
+ABOUT_THE_GAME	comments	NO	Hold on, let me come up with something... okay, got it. Everybody ready?	Justin
+IN-CHARACTER_DIALOGUE			Yeah.	All
+IN-CHARACTER_DIALOGUE			Peace! [poof noise]	Garyl
+NON-CONTENT			All right.	Griffin
+ABOUT_THE_GAME	comments	NO	Good, I like it, simple, straight to the point. Better luck next time, Merle.	Griffin
+NON-CONTENT			Yeah, right.	Clint
+MECHANICS		NO	Next in the order--	Griffin
+ABOUT_THE_GAME	comments	NO	Hey, I'm sorry that Griffin was so mean to you, Dad. I was proud of you, you came out. You had a plan ready to go-- [crosstalk]	Travis
+ABOUT_THE_GAME	comments	NO	No, I was proud of you too! I really wanted that to work out for you.	Griffin
+ABOUT_THE_GAME	comments	NO	We need to reward our initiatives. That's okay.	Clint
+MECHANICS		NO	Next in the order is Carey.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Carey reaches into her pocket and pulls out what looks like a little white pebble that she throws upwards into the air, and it starts emitting this flashing light, and it kind of like hangs in the air emitting this strobe light. And your eyes are kind of like naturally drawn to it, and so are your robotic opponents.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	And when your eyes kind of adjust as this thing stops blinking and these robots are still kind of looking up at it, you see Carey almost like hanging in midair with her arms outstretched with two daggers, one dagger in each hand, which she brings down in a cross-chop on Maarvey's back.	Griffin
+MECHANICS		NO	Wow.)	And  (Clint
+NARRATION_AND_DESCRIPTION	events	NO	--very successfully performs a sneak attack on Maarvey for, [dice] Jesus, [more dice] for 28 points of damage.	And  (Clint
+ABOUT_THE_GAME	comments	YES	What?	Travis
+NARRATION_AND_DESCRIPTION	events	NO	She buries her two blades in his back.	Griffin
+ABOUT_THE_GAME	comments	NO	[sighs] Should've been a rogue.	Travis
+NARRATION_AND_DESCRIPTION	description	NO	You see a shower of sparks shoot out of these two wounds, giving him almost-- spark wings, and she does a backflip off of his back and lands behind him.	Griffin
+ABOUT_THE_GAME	comments	NO	By the way, if I may say, good move adding characters who are proficient at combat to our group.	Clint
+STAGE_DIRECTIONS			[crosstalk]	stage
+ABOUT_THE_GAME	comments	NO	Hey, suck a nut!	Travis
+ABOUT_THE_GAME	recap	NO	[Griffin and Justin laugh] I don't know if you remember, one time I kicked somebody out of a train!	Travis
+NON-CONTENT			Yeah.	Clint
+ABOUT_THE_GAME	comments	YES	Doesn't feel good, does it, Griff-Travis?	Clint
+ABOUT_THE_GAME	comments	NO	No, but see, I'm actually good at this!	Travis
+MECHANICS		NO	Next in the order is Taako.	Griffin
+MECHANICS		YES	Do I need to start off rolling a d10?	Justin
+MECHANICS		NO	Yes, you do.	Griffin
+MECHANICS		NO	8.	Justin
+MECHANICS		NO	Okay, with an 8, you are going to use your action to make a melee attack against a randomly determined creature within its reach. If there's no creature within its reach, the creature does nothing this turn.	Griffin
+ABOUT_THE_GAME	comments	NO	Cool.	Justin
+ABOUT_THE_GAME	comments	NO	So within your reach, let me think.	Griffin
+ABOUT_THE_GAME	recap	NO	Magnus just rushed up...	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	I think it would only be Merle, is the only thing that would be nearby you.	Griffin
+ABOUT_THE_GAME	recap	NO	'Cause Carey just flipped behind the thing and Magnus ran up there.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	So go ahead and make a melee attack on Merle.	Griffin
+ABOUT_THE_GAME	comments	NO	[laughs] Yeah, I've been waiting for this!	Justin
+NON-CONTENT			[dice] Uh, what we got there is a--	Justin
+STAGE_DIRECTIONS			[riotous laughter]	stage
+ABOUT_THE_GAME	comments	YES	Why am I laughing?	Clint
+MECHANICS		NO	It's a 19, plus 4!	Justin
+ABOUT_THE_GAME	comments	NO	Jiminy...!	Clint
+MECHANICS		NO	That's a good-- hey, that's a solid hit.	Griffin
+NON-CONTENT			So were you--	Griffin
+ABOUT_THE_GAME	retcon	NO	No!	Clint
+NON-CONTENT			It's... [grumbles]	Clint
+NARRATION_AND_DESCRIPTION	events	YES	Were you just bashing him with the Umbra Staff?	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	Do you have like a dagger?	Griffin
+NARRATION_AND_DESCRIPTION	events	YES	Or what were you doing?	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	I have a short sword.	Justin
+NARRATION_AND_DESCRIPTION	events	NO	I was using my short sword.	Justin
+ABOUT_THE_GAME	comments	NO	Oh, fuck yeah.	Griffin
+ABOUT_THE_GAME	comments	YES	Although, if I was confused, would I pull that out?	Justin
+ABOUT_THE_GAME	comments	NO	Uh, yeah. Yeah yeah.	Griffin
+NON-CONTENT			Now, he's not within--	Travis
+STAGE_DIRECTIONS			[crosstalk]	stage
+NARRATION_AND_DESCRIPTION	description	YES	Merle's not within five feet of me, is he?	Travis
+NARRATION_AND_DESCRIPTION	description	NO	No, no no.	Griffin
+NON-CONTENT			Okay.	Travis
+IN-CHARACTER_DIALOGUE			Sorry, Merle!	Magnus
+ABOUT_THE_GAME	comments	NO	No, that would be too nice.	Clint
+NON-CONTENT			All right!	Clint
+MECHANICS		NO	Go ahead and roll damage on that.	Griffin
+ABOUT_THE_GAME	comments	NO	Well, here's the good news.	Justin
+NARRATION_AND_DESCRIPTION	events	NO	His misfortune ends here.	Justin
+MECHANICS		NO	That's gonna be 5+2, so 7 points of damage.	Justin
+ABOUT_THE_GAME	comments	NO	Well yeah, melee, not– not Taako's strong suit.	Travis
+IN-CHARACTER_DIALOGUE			Yeah.	All
+NARRATION_AND_DESCRIPTION	description	YES	Merle, I imagine you'd be very confused and upset by this?	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	[glum] No, I'm used to it.	Clint
+ABOUT_THE_GAME	comments	NO	[big laugh] "I deserve this."	Travis
+NARRATION_AND_DESCRIPTION	description	NO	You're saying, Taako just like freaking out in combat and attacking you elicits no response except for "Meh..." Just sort of a begrudging sort of acceptance?	Griffin
+NON-CONTENT			Well, yeah, I knew he was--	Clint
+ABOUT_THE_GAME	comments	NO	It makes sense that-- he assumes it's my retribution for him not successfully removing my Confusion.	Justin
+ABOUT_THE_GAME	comments	NO	Yeah, I knew he was Confused.	Clint
+ABOUT_THE_GAME	comments	NO	That's quite the heel turn there, Taako!	Griffin
+STAGE_DIRECTIONS			[crosstalk]	stage
+NON-CONTENT			I mean he...	Justin
+ABOUT_THE_GAME	comments	NO	It is fair to say he did know I was confused somehow, so I mean, he would just chalk it up to confusion and not me personally.	Justin
+ABOUT_THE_GAME	comments	NO	That is fair.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Next in the order is Magic Brian, who says:	Griffin
+IN-CHARACTER_DIALOGUE			I've been working on my Magic Missile for a while, would you like to see it?	Magic Brian
+IN-CHARACTER_DIALOGUE			Oh, you left off the word "Merle" at the end of that statement.	Merle
+IN-CHARACTER_DIALOGUE			Oh no, I wouldn't attack you, Merle, we've got no beef here.	Magic Brian
+IN-CHARACTER_DIALOGUE			Thanks, buddy!	Merle
+IN-CHARACTER_DIALOGUE			Who's ready to see my new and improved Magic Missile?	Magic Brian
+IN-CHARACTER_DIALOGUE			I actually am, I say from the ground. [crosstalk] I like magic!	Magnus
+IN-CHARACTER_DIALOGUE			I'm just kidding, that's some level one shit!	Magic Brian
+NARRATION_AND_DESCRIPTION	events	NO	And he casts Fireball.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	Uh, a twenty-foot radius sphere. So he's gonna kinda point it at the ground in between all three of you.	Griffin
+MECHANICS		NO	So all of you need to make a dexterity saving throw, and I'm gonna say Magnus, you're gonna have disadvantage on this since you are prone.	Griffin
+ABOUT_THE_GAME	comments	NO	Yeah, that makes a lot of sense, Griffin. Good DMing.	Travis
+MECHANICS		NO	[dice] Okay, okay, well, that's another critical miss!	Travis
+ABOUT_THE_GAME	comments	NO	Holy shit.	Griffin
+ABOUT_THE_GAME	comments	NO	Man, stink dice!	Justin
+ABOUT_THE_GAME	comments	NO	New dice, you are shitting the bed!	Travis
+ABOUT_THE_GAME	comments	YES	Can you burn dice?	Clint
+ABOUT_THE_GAME	comments	NO	You can, Father. I'm about to switch over to the ol' greenie.	Travis
+MECHANICS		NO	I rolled 11.	Clint
+MECHANICS		NO	Yeah, I got a 22.	Justin
+NARRATION_AND_DESCRIPTION	description	NO	Okay, fuckin' flip wizard Magoo over there-- [crosstalk]	Griffin
+MECHANICS		NO	I actually rolled a 19, which I felt pretty good about.	Justin
+NARRATION_AND_DESCRIPTION	events	NO	-- expertly leaps into the air and avoids a fireball that consumes-- [mutters] oh, I need to roll for Carey--	Griffin
+ABOUT_THE_GAME	comments	NO	All of our fears!	Travis
+NARRATION_AND_DESCRIPTION	description	NO	[still muttering] Oh, well, Carey was behind them, so no, Carey wouldn’t... [indistinct]	Griffin
+ABOUT_THE_GAME	comments	NO	All of our- It consumes our doubts and we're left feeling braver and more confident.	Justin
+ABOUT_THE_GAME	comments	NO	Everything's good now.	Travis
+ABOUT_THE_GAME	comments	NO	Things are gonna work out okay.	Justin
+MECHANICS		NO	There's a lot of dice on Fireball.	Griffin
+ABOUT_THE_GAME	comments	NO	I know I've heard you roll them before, Justin, but that's a lot of dice on Fireball.	Griffin
+MECHANICS		NO	Yeah, a lot of dice.	Justin
+ABOUT_THE_GAME	comments	NO	Oh my god. Oh my god.	Griffin
+MECHANICS		NO	24 points of damage.	Griffin
+ABOUT_THE_GAME	comments	NO	Oh, Snapple!	Travis
+ABOUT_THE_GAME	comments	NO	Makes my short sword seem like a stiff breeze, doesn't it?	Justin
+NON-CONTENT			Uh, yeah, you are--	Griffin
+MECHANICS		YES	24, you said?	Travis
+MECHANICS		YES	On each one of us?	Clint
+MECHANICS		NO	Yeah.	Griffin
+MECHANICS		NO	Not me.	Justin
+MECHANICS		NO	Well, I'm bloodied. But just barely.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	So Magic Brian literally like lifts up his cannon arm and grabs his wrist and fuckin' cocks it, and then fires this gigantic burst of flame at the three of you. Taako, you dodge out of the way, and Magic Brian seems very impressed by that, but yeah, Magnus, you particularly just catch this one real bad.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	You're lying on the ground like a starter log.	Griffin
+NARRATION_AND_DESCRIPTION	events	YES	Griffin, I have to know-- did it singe my sideburns?	Travis
+NARRATION_AND_DESCRIPTION	description	NO	No, it didn't, however, [relieved noises from Travis] --this'll be fun-- Merle, your hand is a little bit on fire.	Griffin
+ABOUT_THE_GAME	comments	NO	Yeah, that's fun! That is fu-u-un!	Clint
+ABOUT_THE_GAME	recap	YES	Well, remember you got that wood hand? You got that wood hand.	Travis
+ABOUT_THE_GAME	comments	NO	You got that wood hand, and that's just like, that makes sense to me. That feels right in my DM belly.	Griffin
+STAGE_DIRECTIONS			[crosstalk]	stage
+NARRATION_AND_DESCRIPTION	lore_history_backstory	NO	Green wood doesn't burn, it's sappy.	Clint
+NON-CONTENT			Um…	Griffin
+ABOUT_THE_GAME	comments	NO	Alright, fine.	Clint
+STAGE_DIRECTIONS			[blows at flaming arm]	stage
+MECHANICS		NO	You can blow on it on your turn.	Griffin
+ABOUT_THE_GAME	comments	NO	Or maybe Jenkins will blow on it, because it's Jenkins' turn.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Jenkins looks at how bad off Maarvey is and casts Stoneskin.	Griffin
+MECHANICS		NO	Let me tell you what Stoneskin does, because I know you're wondering. It's like a-- so let me explain. In this game, clerics can cast buffs on the other members of their party, to like, make 'em more survivable, and keep 'em from getting hurt and taking damage or making them more-- it's like a really good thing that clerics can do.	Griffin
+ABOUT_THE_GAME	comments	NO	This is the first time you're learning this information.	Griffin
+ABOUT_THE_GAME	comments	NO	He's not reacting at all.	Justin
+NON-CONTENT			Okay.	Griffin
+ABOUT_THE_GAME	comments	NO	He's acting like you're not even talking about clerics.	Justin
+MECHANICS		NO	The spell turns the flesh of a willing creature you touch-- [crosstalk]	Griffin
+ABOUT_THE_GAME	comments	NO	I don't think he's paying attention.	Justin
+MECHANICS		NO	--as hard as stone. Until the spell ends, the target has resistance to non-magical bludgeoning, piercing, and slashing damage. So, all physical attacks, Maarvey has resistance to. Next in the order is Magnus.	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	Where am I in relation to Magic Brian?	Travis
+NARRATION_AND_DESCRIPTION	description	NO	So you got knocked backwards quite a ways, you're about maybe... [tongue clicking noises] 20 feet away from the three robots.	Griffin
+STAGE_DIRECTIONS			[pronounced ‘robits’]	stage
+NON-CONTENT			Okay.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	So I'm going to stand up, then I'm gonna Action Surge, and I'm gonna charge Magic Brian so I'm right up on him.	Travis
+ABOUT_THE_GAME	comments	NO	Ooooh okay, go for it.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	And then with my attack, I'm going to pry his arm off.	Travis
+ABOUT_THE_GAME	comments	NO	Oh, this old fuckin' chestnut!	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Well, I just got blasted by his Mega Man arm, and I wanna take his arm... off.	Travis
+NON-CONTENT			So...	Griffin
+MECHANICS		NO	I'm not gonna let you do that with an attack. If you want, as an action, to try and pull his arm off, but for you to be able to deal damage and --	Griffin
+ABOUT_THE_GAME	comments	NO	No, okay, that's fair.	Travis
+MECHANICS		NO	We'll make it, this is my standard action then, instead of an attack.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	Oh my god.) to pry his arm off.	I'm gonna use my crowbar (Griffin
+NON-CONTENT			Okay.	Griffin
+MECHANICS		NO	Yeah, I'll give you, it's gonna be a pretty high check, but I'll give you advantage since you have the crowbar thing.	Griffin
+MECHANICS		NO	Well that's a 19 plus my strength is a 26.	Travis
+NON-CONTENT			Uh...	Griffin
+ABOUT_THE_GAME	comments	NO	POP!	Griffin
+IN-CHARACTER_DIALOGUE			[wailing] Ohhhhhhhhh, nooooooo. [normal] I'm just kidding, I can't feel anything. But uh, it is a bummer! I--	Magic Brian
+NARRATION_AND_DESCRIPTION	actions	NO	And then my second attack, (Magic Brian: Uh oh!) I'm gonna hit him with his own fucking arm.	Travis
+NON-CONTENT			Okay.	Griffin
+ABOUT_THE_GAME	comments	YES	Can you shoot him with his own fucking arm?	Clint
+ABOUT_THE_GAME	comments	NO	Ooh!	Travis
+MECHANICS		YES	Can I, Griffin?	Travis
+MECHANICS		NO	Uhhh, yeah...	Griffin
+ABOUT_THE_GAME	comments	NO	Pleeeeeeease? Pleeeeeeease?	Clint
+NON-CONTENT			Yeah, you, uh, yeah.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	Yeah, I'm gonna say, he just channeled Fireball through that arm, and I don't think you're gonna be able to cast another Fireball out of it, but there is definitely like, this arm is still hot to the touch, and there seems to be like-- you know how like when people use a flamethrower, and when they use it, there's still that little spout of flame that comes out after they're done? Done blasting off--?	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	Yeah, I shove that into the glass in his chest.	Travis
+ABOUT_THE_GAME	comments	NO	I just went to-- Okay, that's very cool.	Griffin
+NON-GAME_RELATED			I just went to Wrestlemania and the Rock had an entrance that lasted about twenty-five minutes and it involved him using a flamethrower to set his own name on fire. That's how I know so much about fireball physics.	Griffin
+NON-CONTENT			Okay.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	Yeah, I'm gonna put that gout of flame into his chest.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	All right, you aim it right into his fuse.	Griffin
+MECHANICS		NO	That's another 19.	Travis
+ABOUT_THE_GAME	comments	NO	That's good, because I think that was technically a spellcasting check.	Griffin
+NARRATION_AND_DESCRIPTION	actions	YES	Um, you cast... what do you cast?	Griffin
+MECHANICS		YES	What's Faerie Fire?	Griffin
+ABOUT_THE_GAME	comments	NO	That doesn't seem like a thing that you... yeah, that's like a beautiful light made of fairy magic.	Griffin
+MECHANICS		NO	Yeah, go ahead and roll, uh, 3d10. We'll say this is a very powerful use of the spell Firebolt.	Griffin
+MECHANICS		NO	6. 1. 10. 17 points of damage.	Travis
+NON-CONTENT			Okay, yeah.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	You put this thing right up against the fuse in the middle of Magic Brian's chest, you fuckin' cock it and uh, release all of the leftover fire magic in his arm and you just blast the thing in the middle of his chest, and it does a ton of damage to him, and his-- that glass fuse kind of shatters, and the white sort of floating light that was inside of it pops out, and is now floating in between the two other robots.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	And you hear him go:	Griffin
+IN-CHARACTER_DIALOGUE			Well damn it. I had such big plans, I was-- I mean that was very cool, you, you blew me up with a– like a robot gun, but I had such big plans for, for the robot bodies that I found. I-- I was going to return to my love and we were going to finish our wedding, but uh... apparently... the best laid plans of mice and men and all that, yes?	Magic Brian
+IN-CHARACTER_DIALOGUE			Yep.	Magnus
+IN-CHARACTER_DIALOGUE			I am just going to, just, one second, I'm, I, do you, do you mind if I... this might get a little uncomfortable, but do you mind if I--	Magic Brian
+NARRATION_AND_DESCRIPTION	events	NO	And then he, this white ball flies into the same fuse that Maarvey is inside, in the little wiry ball.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	You hear Maarvey go--	Griffin
+ABOUT_THE_GAME	comments	NO	No, wait. I thought Jenkins was in the wiry one.	Travis
+ABOUT_THE_GAME	comments	NO	Oh, yes. Shit.	Griffin
+ABOUT_THE_GAME	retcon	NO	You hear Jenkins say:	Griffin
+IN-CHARACTER_DIALOGUE			Oh, come on. Your foot's on my butt, and my butt is on your ear. This is clumsy and ridic-- there's only enough room for one in here. We're just nuts to butts in here. This is, this is wholly unacceptable.	Jenkins
+NARRATION_AND_DESCRIPTION	events	NO	Are they doing kind of like that dance, like when in cartoons like a squirrel goes into somebody's clothes?	Travis
+ABOUT_THE_GAME	comments	NO	That's what I want to picture.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	And then the squirrel says, "We're nuts to butts!"	Griffin
+ABOUT_THE_GAME	comments	NO	And it's like a funny joke because squirrels and nuts and all that.	Griffin
+ABOUT_THE_GAME	comments	NO	"But no buts to nuts! I'm hungry!"	Travis
+MECHANICS		NO	Next in the order is Maarvey. Do I have to roll to save against your shit? Against your Goading Strike?	Griffin
+MECHANICS		NO	No, you’re just– it just is that, from now on.	Travis
+MECHANICS		YES	Forever?	Griffin
+MECHANICS		NO	I mean, until the battle's over.	Travis
+MECHANICS		NO	That can't be right.	Griffin
+ABOUT_THE_GAME	comments	NO	Whatever.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	He's going to attack you anyway because you murdered him in real life. He is going to charge at you and do like kind of a Thunderclap with your body in the middle of it.	Griffin
+MECHANICS		NO	[checking the rules] Oh, sorry, until the end of your next turn.	Travis
+MECHANICS		YES	Okay, well, that's still this turn, right?	Griffin
+MECHANICS		NO	Yeah.)	(Travis
+NON-CONTENT			Okay.	(Travis
+MECHANICS		YES	He rolled a 19 versus AC?	(Travis
+MECHANICS		NO	Well, that's a tie...	Travis
+MECHANICS		NO	Tie goes to the runner.	Griffin
+MECHANICS		YES	What was the attack? What kind of attack was it?	Travis
+MECHANICS		NO	Uh, hurting? Hurting gorilla slaps.	Griffin
+MECHANICS		NO	Well, okay, but it's just like... he's punching me.	Travis
+MECHANICS		NO	He's doing a Thunderclap, it would be bludgeoning damage. [dice roll] 15 points of damage.	Griffin
+NON-CONTENT			Okay.	Travis
+NARRATION_AND_DESCRIPTION	description	NO	SHEE-CLACK!	Griffin
+STAGE_DIRECTIONS			[sound effect]	stage
+IN-CHARACTER_DIALOGUE			Merle, just so you know, I'm not doing great.	Magnus
+NARRATION_AND_DESCRIPTION	events	NO	Yeah, he hits you real real hard.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	You feel a little bit woozy after that one.	Griffin
+MECHANICS		NO	And next in the order is...	Griffin
+ABOUT_THE_GAME	comments	NO	Oh, wait wait wait!	Travis
+MECHANICS		NO	when hit, use superiority dice to reduce damage by d8 plus my Dexterity.	I'm gonna use my superiority dice to do Parry
+NON-CONTENT			Okay.	Griffin
+MECHANICS		NO	[dice] 5... plus 2, so reduce it by 7, so I only take--	Travis
+MECHANICS		NO	8 points of damage. Next in the order is Merle.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I'm going to cast Prayer of Healing.	Clint
+MECHANICS		NO	Up to six creatures of my choice that I can see within range each regain hit points equal to 2d8 plus my spellcasting modifier, and since I'm using my last number 4 spell slot, if you're using a spell slot of third level or higher, the healing increases by 1d8 for each slot level above 2nd.	Clint
+ABOUT_THE_GAME	comments	NO	Excellent.	Travis
+MECHANICS		NO	Okay, so an extra 2d8 on top of the normal base amount.	Griffin
+MECHANICS		NO	And the 6. So I'm rolling the d8, it is a 6, so 4 times 6 is--	Clint
+MECHANICS		NO	No, you gotta roll all 4.	Griffin
+ABOUT_THE_GAME	comments	YES	Justin, will you keep count?	Clint
+ABOUT_THE_GAME	comments	NO	I will.	Justin
+STAGE_DIRECTIONS			[Dice rolling and calling out numbers.]	stage
+MECHANICS		NO	...That means, 23, and that means each one of my compatriots and myself get 23 points of healing.	Clint
+NARRATION_AND_DESCRIPTION	description	NO	I am no longer bloodied!	Travis
+ABOUT_THE_GAME	comments	NO	I'm sure they appreciate that.	Griffin
+NON-CONTENT			Um, okay--	Griffin
+MECHANICS		NO	Well I was down to 3, so...	Clint
+ABOUT_THE_GAME	comments	NO	Holy shit!	Griffin
+NON-CONTENT			Okay.	Griffin
+MECHANICS		NO	Next in the order is Carey, who does a little--	Griffin
+IN-CHARACTER_DIALOGUE			Hey Merle, real quick before she moves, you should move! Use your move action, get away from Taako, he's confused as shit!	Magnus
+IN-CHARACTER_DIALOGUE			Okay!	Merle
+NARRATION_AND_DESCRIPTION	actions	NO	I-I do that.	Clint
+NARRATION_AND_DESCRIPTION	actions	YES	Are you moving towards the robots or away from the robots?	Griffin
+IN-CHARACTER_DIALOGUE			Come towards me!	Magnus
+NARRATION_AND_DESCRIPTION	actions	NO	I'm moving away from Taako and I'm moving towards Magnus and I'm kind of, I'm kinda hiding behind him a little bit. I'm cowering.	Clint
+IN-CHARACTER_DIALOGUE			Good! I have the whole protector thing that I never get to use!	Magnus
+IN-CHARACTER_DIALOGUE			Yeah, I know!	Merle
+ABOUT_THE_GAME	comments	NO	Boy, I love this teamwork and this strategy.	Griffin
+NON-CONTENT			Okay.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Carey does a little gymnastic roll to end up right behind the now-conjoined Jenkins-Brian bot, and she is going to grab a big fistful of those wires and just kind of drag a knife across 'em to give 'em a little-- give 'em a little rude haircut.	Griffin
+NON-GAME_RELATED			That's my favorite Edgar Allen Poe story.	Travis
+NON-GAME_RELATED			[low ominous tone] The Rude Haircut.	Clint
+MECHANICS		NO	That is a hit...	Griffin
+ABOUT_THE_GAME	comments	NO	For those of you keeping score at home, Griffin's right now fighting himself.	Travis
+ABOUT_THE_GAME	comments	NO	That is true.	Griffin
+ABOUT_THE_GAME	comments	NO	And he's doing a great job.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	She hits them for 15 points of damage, and you hear both Magic Brian and Jenkins yell at the same time:	Griffin
+IN-CHARACTER_DIALOGUE			Aaaagh!	Magic Brian & Jenkins
+NON-GAME_RELATED			And I'll, maybe I'll edit that to make it so that they both happened at the same time. Or I can use my, like, I've been studying Malaysian throat singing. It's this cool new technique. All the kids are talking about it.	Griffin
+NON-GAME_RELATED			I don't think it's Malaysian...	Travis
+NON-GAME_RELATED			They do it in Malaysia all the time. Coldplay learned it when they were over there. Studying.	Griffin
+NON-CONTENT			Okay.	Travis
+MECHANICS		NO	Next in the order is... Taak-o.	Griffin
+ABOUT_THE_GAME	comments	NO	Oh, I'm sorry, Taak-o, Taak-o, Taak-o, Taak-o, we should've resolved this last time.	Griffin
+ABOUT_THE_GAME	comments	NO	C'mon, do it buddy!	Clint
+MECHANICS		NO	You've gotta roll a Wisdom saving throw. You can save out of this. If you– if you do good!	Griffin
+MECHANICS		NO	[dice] That is a 16 plus...	Justin
+NARRATION_AND_DESCRIPTION	events	NO	Yeah, you saved.	Griffin
+ABOUT_THE_GAME	comments	NO	Oh, thank god!	Justin
+IN-CHARACTER_DIALOGUE			Okay, first off, some apologies are due to the stabbed parties I have so grievously wronged, I am sorry about that, darling.	Taako
+IN-CHARACTER_DIALOGUE			There's that sweet voice I've missed so much!	Magic Brian
+IN-CHARACTER_DIALOGUE			You're on the list, bucko! Okay? Bad news for you! You better hope you have a lot of robots.	Taako
+IN-CHARACTER_DIALOGUE			I have a question for you, my dear new friend. I'm ready to let bygones be bygones, just answer this one question for me, sweaze? Sweaze? [Taako: Sure.] That's French for please. [Taako: Mh-hm.] Would you like the fish, or the beef?	Magic Brian
+IN-CHARACTER_DIALOGUE			At the wedding, you mean.	Taako
+IN-CHARACTER_DIALOGUE			Yes, yes.	Magic Brian
+IN-CHARACTER_DIALOGUE			I'm a vegetarian, actually, so... do you have a third option, or...?	Taako
+IN-CHARACTER_DIALOGUE			I um... no. Well, we'll have some sides, some hearty sides, and of course some sweet bread rolls. But I'll send you a link to my registry later. I asked, I had a toaster on that registry, but I no longer think that that will be necessary.	Magic Brian
+NARRATION_AND_DESCRIPTION	description	NO	And you see a little toaster attachment pop out of that robot, and two pieces of bread pop out of him.	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	So the two robots that are left, how close are they to each other?	Justin
+NARRATION_AND_DESCRIPTION	description	NO	They are very very close. These three were standing, like, shoulder to shoulder--	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	Like emotionally?	Travis
+NARRATION_AND_DESCRIPTION	description	NO	Well, right now, Jenkins and Magic Brian are like, super uncomfortably close.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	Yeah, I reach into my bag... I reach into my bag, and uh– I pull out a single glass sphere.	Justin
+NON-CONTENT			Okay... Ooh.	Griffin
+ABOUT_THE_GAME	comments	NO	I’m gettin’... Ooh, I got goosebumps.	Griffin
+STAGE_DIRECTIONS			[Clint laughing]	stage
+NON-CONTENT			I said, uh...	Justin
+ABOUT_THE_GAME	comments	NO	Inside is the memory of the goblin king.	Travis
+ABOUT_THE_GAME	comments	NO	You're not too far off!	Justin
+NARRATION_AND_DESCRIPTION	actions	NO	And I say,	Justin
+IN-CHARACTER_DIALOGUE			You know, you two remind me of somebody.	Taako
+IN-CHARACTER_DIALOGUE			Who...who's that?	Magic Brian
+IN-CHARACTER_DIALOGUE			Yeah?	Maarvey
+IN-CHARACTER_DIALOGUE			You remind me of the babe!	Taako
+NARRATION_AND_DESCRIPTION	actions	NO	Then I throw the glass sphere at them.	Justin
+NARRATION_AND_DESCRIPTION	events	NO	It shatters, and they float into the air.	Justin
+ABOUT_THE_GAME	comments	NO	Oh, shit!	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	There's no longer gravity around them. They don't have gravity.	Justin
+IN-CHARACTER_DIALOGUE			Oh shit! Oh god!	Maarvey
+NARRATION_AND_DESCRIPTION	description	NO	Okay, this is especially effective on the gorilla robot, because like I said, he was sort of, all of his center of gravity was based up on his fists, and now that he does not- no longer have that, he is like kicking and flailing like a little baby up there.	Griffin
+ABOUT_THE_GAME	comments	NO	Oh, I am scrunchin' for some punchin'.	Travis
+NARRATION_AND_DESCRIPTION	description	NO	The circular wire bot, you see those wires sort of extend and expand and retract, trying to find purchase on this conveyor belt, but it is not doing an especially great job of steadying itself.	Griffin
+IN-CHARACTER_DIALOGUE			Cool! Okay, I'm not confused anymore. Pretty much figured it all out.	Taako
+IN-CHARACTER_DIALOGUE			Like, life?	Magnus
+NON-CONTENT			Yeah.	Justin
+NARRATION_AND_DESCRIPTION	actions	NO	And I scurry back behind, I run away, and hide behind Merle, behind Magnus.	Justin
+STAGE_DIRECTIONS			[Travis laughs] [Incidental music, Robot Rematch]	stage
+ABOUT_THE_GAME	comments	NO	You guys-- can I just say something, you guys are adorable right now.	Griffin
+MECHANICS		NO	All right, next in the order is Magic Brian.	Griffin
+IN-CHARACTER_DIALOGUE			All right, let me see if I can control your-- do you mind if I-- let me just take control of these-- can you give me control of, like, these fourteen wires, and you can have the other 28? You just give me these fou--	Magic Brian
+NARRATION_AND_DESCRIPTION	description	NO	You hear Jenkins like-	Griffin
+IN-CHARACTER_DIALOGUE			Yes, okay, God, yes, you can have– let me rewire, let me route you access to-- okay, let me open up the packets and the kernel-- okay, fine. You now have access to those 14 wires. Please use them wisely, those were some of my favorite wires.	Jenkins
+NARRATION_AND_DESCRIPTION	events	NO	He casts Haste.	Griffin
+MECHANICS		NO	The target's speed is doubled, it gains a +2 bonus to AC, it has Advantage on dexterity saving throws and it gains an additional action on each of its turns-- [crosstalk]	Griffin
+ABOUT_THE_GAME	comments	NO	What the fuck! Can you do that, Merle? Where have you been?	Travis
+ABOUT_THE_GAME	comments	NO	...No?	Clint
+NON-CONTENT			The components for this--	Griffin
+ABOUT_THE_GAME	comments	NO	I've been begging for extra AC!	Travis
+NARRATION_AND_DESCRIPTION	description	NO	I don't have the components!	Clint
+NARRATION_AND_DESCRIPTION	lore_history_backstory	NO	The components for this, this is fun, it's a shaving of licorice root.	Griffin
+ABOUT_THE_GAME	comments	NO	So I just imagine you like, pop in a lil’, a little Cracker Barrel candy into there.	Griffin
+STAGE_DIRECTIONS			[popping noises]	stage
+ABOUT_THE_GAME	comments	NO	The components have been in you all along.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	And then you cast the best buff ever.	Griffin
+MECHANICS		NO	When the spell ends, the target can't move or take actions until after its next turn as a wave of lethargy sweeps over it.	Griffin
+ABOUT_THE_GAME	comments	NO	Well, that's kind of a downer, I guess.	Travis
+MECHANICS		NO	 But it lasts for a minute, which is ten rounds of combat. Next in the order is Magnus. Oh no, I'm sorry, it's Jenkins.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	Jenkins still has control.	Griffin
+ABOUT_THE_GAME	comments	NO	Wait, hold on--	Travis
+NON-CONTENT			Yeah.	Griffin
+ABOUT_THE_GAME	comments	NO	But it's one creature!	Travis
+ABOUT_THE_GAME	comments	NO	[sings] Two minds, one body! One heart, two hearts, two souls, one body! One robot, two loves! One love! Jah!	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Jenkins says,	Griffin
+IN-CHARACTER_DIALOGUE			Time to bring out the big guns!	Jenkins
+NARRATION_AND_DESCRIPTION	events	NO	And his 28 wires all point at you, Magnus, and they spark up, and he casts Dominate Person as he--	Griffin
+ABOUT_THE_GAME	comments	NO	Yyyyeah, spark up!	Travis
+NARRATION_AND_DESCRIPTION	events	NO	--as he rolls up a fuckin' fat 420 blunt.	Griffin
+STAGE_DIRECTIONS			[laughter]	stage
+NARRATION_AND_DESCRIPTION	events	NO	He's tryin' to dominate your person, let's go ahead and make that wisdom saving throw that you've been looking forward to this whole time.	Griffin
+MECHANICS		NO	That is a twenty.	Travis
+ABOUT_THE_GAME	comments	NO	Welcome back, Travis!	Clint
+MECHANICS		NO	You actually have advantage on that roll since you're actively in a fight with this thing, but you cleared the save, so-- Spoiler alert, they added that caveat because Dominate Person is bad, bad stuff. It's your turn now, Mag.	Griffin
+MECHANICS		YES	Remind me, what's the Stoneskin?	Travis
+MECHANICS		NO	Stoneskin is, they have resistance to melee damage. In addition to that he also has Haste, so he has +2 to AC, advantage on Dex saving throws and an extra action on his turn.	Griffin
+ABOUT_THE_GAME	comments	NO	Great great great. Great great great great great.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	I am-- I'm gonna grab those 28 wires.. and I'm gonna swing the Jenkins bot into the Maarvey bot.	Travis
+NARRATION_AND_DESCRIPTION	actions	YES	Okay, this is... you're just like going through, making sure you find the fuckin' Jenkins-wires--? And like you're threatening--?	Griffin
+ABOUT_THE_GAME	comments	NO	Well you said they were pointed at me.	Travis
+ABOUT_THE_GAME	comments	NO	Yeah, all right, that's fair.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	They're pointing at you from this floating wiry body.	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	I'm picturing like a Fry Kid, is that the right--?	Travis
+NON-GAME_RELATED			Yes, well, they're called Fry Guys, not Fry Kids, that would be crazy.	Griffin
+NON-GAME_RELATED			Well they have Fry Kids! Do you think they're just born fully formed Fry Guys?	Travis
+NON-GAME_RELATED			Well, how-- do they reproduce asexually? Do the men... carry the children...?	Griffin
+STAGE_DIRECTIONS			[crosstalk]	stage
+NON-GAME_RELATED			I've never asked.	Travis
+NON-GAME_RELATED			--Like seahorses?	Griffin
+NON-GAME_RELATED			I don't know, Griffin.	Travis
+MECHANICS		NO	What do I need to roll? I rolled a 15 plus 7, 22.	Travis
+NARRATION_AND_DESCRIPTION	actions	NO	This should be a throwing attack, and you're just, I guess the point is, what are you trying to accomplish here? Are you just trying to make these two big robots hit each other?	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	Yeah!	Travis
+NON-CONTENT			Okay.	Griffin
+ABOUT_THE_GAME	comments	NO	This is very Power Rangers, I'm very much into it.	Griffin
+NON-CONTENT			Make a--	Griffin
+NON-CONTENT			Yeah!	Travis
+ABOUT_THE_GAME	comments	NO	I wanna smash 'em together!	Travis
+MECHANICS		YES	What did you roll?	Griffin
+MECHANICS		NO	The attack was a 15 + 7 because that's my combat- my attack bonus, so 22.	Travis
+MECHANICS		NO	Okay, that ties with the buff, with the big guys, so you'll do damage to both of them. Just roll one d10 plus your modifier.	Griffin
+MECHANICS		NO	I rolled an 8, let's say that my damage modifier is a +4.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Okay, you throw the wiry bot that held Jenkins and Magic Brian into the big ol' gorilla bot that held Maarvey, and as they collide, the wire bot takes all that damage. The Maarvey-bot does not because it has the Stoneskin, it takes half that damage.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	And you see the fuse inside of the little wiry bot shatter and explode, and two balls of light fly out of it, and fly into the big gorilla-bot. So now all thr-- you see these three fuses-- you see these three lights inside of the fuse of the big gorilla Maarvey bot and you can't really distinguish between them anymore, it's just like glowing very very very brightly, and you hear just sort of the three of them fighting amongst themselves.	Griffin
+NARRATION_AND_DESCRIPTION	description	YES	Are we in sort of a confined area?	Justin
+NARRATION_AND_DESCRIPTION	description	NO	Yeah.	Griffin
+ABOUT_THE_GAME	comments	YES	Why?	Griffin
+NON-CONTENT			Okay.	Justin
+NARRATION_AND_DESCRIPTION	events	YES	I would argue, wouldn't the gorilla bot take another hit, colliding with the wall?	Justin
+NARRATION_AND_DESCRIPTION	description	NO	The Jenkins bot, robot is like… pretty li’l, it's about shoebox size, so I don't think it would have enough force. It was the tiniest of the three robots so I don't think it would have enough force to, like, do that kind of wrecking-ball damage to him.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	But sort of the force of it hitting it did enough, but not enough to move it backwards-- so now all--	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	But the good news is, I get a second attack, (Griffin: Yeah, and now all--) --and I'm gonna punch the shit out of that gorilla bot.	Travis
+NON-CONTENT			M’kay.	Griffin
+NARRATION_AND_DESCRIPTION	actions	YES	You're just gonna punch it?	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I'm gonna Phantom Fist the fuck out of it.	Travis
+NON-CONTENT			[laughing] Okay.	Griffin
+MECHANICS		YES	That is a... 14+7, 21, does that hit?	Travis
+MECHANICS		NO	It does not. No, it doesn't hit his Stoneskin AC.	Griffin
+NARRATION_AND_DESCRIPTION	events	YES	Would you say it still pushed it, though, because it is floating.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Yeah, you push it a little bit, but not enough to like kill it.	Griffin
+ABOUT_THE_GAME	comments	NO	Well, bummer.	Travis
+NON-CONTENT			All right.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Maarvey is going to take a swipe at you, Magnus.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	He's floating--	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I duck.	Travis
+NON-CONTENT			Okay.	Griffin
+ABOUT_THE_GAME	comments	NO	Wow, that was easy.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	No, he is going to have disadvantage because he doesn’t– he can't like, put his feet on the ground and turn into it.	Griffin
+MECHANICS		NO	[dice] That would be a hit... [dice] that probably isn't... 16?	Griffin
+MECHANICS		NO	Nope!	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Nope, all right, yeah, you block his blow with a shield.	Griffin
+MECHANICS		NO	Riposte! If attack missed, attack plus the superiority die.	Travis
+NON-CONTENT			Okay.	Griffin
+MECHANICS		NO	That is a-- [mutters]16, plus 7- 23?	Travis
+MECHANICS		NO	Yes, that is a hit.	Griffin
+MECHANICS		NO	Excellent, and then, it's just a standard melee attack, so we'll say, one-handed Railsplitter... [dice] [mutters numbers, leading to:] so 10 points of damage.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	Okay, it does not do very much, again, because of his Stoneskin, but it is enough to make Maarvey-bot give up the ghost, quite literally, as the fuse in his chest explodes and the three ghosts come flying out of him. And Magic Brian says,	Griffin
+IN-CHARACTER_DIALOGUE			Oh, good going, Maarvey! You really proved yourself there, Arnold! Good going, strong man!	Magic Brian
+IN-CHARACTER_DIALOGUE			Hey, I did my best, okay? I'm a dead guy inside of a robot, I'm new, I'm learning my body, I'm going through robot puberty, I'm learning all kinds of stuff about myself-- Are you there God, it's me Maarvey! I don't know how my robot body works.	Maarvey
+NARRATION_AND_DESCRIPTION	events	NO	And Jenkins says,	Griffin
+IN-CHARACTER_DIALOGUE			Boy, you guys are just absolutely hopeless. I'm going to go find another robot to get inside.	Jenkins
+ABOUT_THE_GAME	comments	NO	Oh yeah, they can do that.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	And Carey shouts at you, Merle, but like, whispered--	Griffin
+IN-CHARACTER_DIALOGUE			Merle, can't you like, do some cleric stuff? Can't you like, channel the divinity or banish them or something?	Carey
+IN-CHARACTER_DIALOGUE			Hm! Yes, I can! I cast Turn Undead... and destroy the undead.	Merle
+MECHANICS		NO	Okay, they get to roll a Wisdom saving throw.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	Maarvey-- rolled a critical miss-- and evaporates. Jenkins rolled a 7 and evaporates. And Magic Brian-- holy shit-- Magic Brian also does not clear it, Jesus, the three of them just kind of turn into beautiful particles, the white light just sort of starts to fade away.	Griffin
+ABOUT_THE_GAME	comments	YES	What? Wait a minute! [hyperventilating] What?	Clint
+NON-CONTENT			You, uh, yeah--	Griffin
+ABOUT_THE_GAME	comments	NO	You were successful. You did it.	Travis
+ABOUT_THE_GAME	comments	NO	What?	Clint
+NARRATION_AND_DESCRIPTION	events	NO	You shout a command word from the divine Extreme Teen Bible of Pan, and that command word was...?	Griffin
+IN-CHARACTER_DIALOGUE			Boogity boogity!	Merle
+NON-CONTENT			All right.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	And Magic Brian says,	Griffin
+IN-CHARACTER_DIALOGUE			What? What is he saying, what is the boogity-- [screams]	Magic Brian
+NARRATION_AND_DESCRIPTION	events	NO	And they start to disintegrate and Jenkins says,	Griffin
+IN-CHARACTER_DIALOGUE			Looks like Team Rocket's blasting off again.	Jenkins
+STAGE_DIRECTIONS			[Travis laughs.]	stage
+NARRATION_AND_DESCRIPTION	description	YES	Hey Griffin, when you say they evaporate, do they go back to like heaven or hell or the after-plane or whatever, or are they gone?	Travis
+NARRATION_AND_DESCRIPTION	description	NO	Kind of seems like you just obliterated their soul. Kind of seems like you just kind of erased 'em.	Griffin
+ABOUT_THE_GAME	comments	NO	Man, you know, at the end of the day, I punch people, but Dad unmakes their existence! Who's the real monster?	Travis
+STAGE_DIRECTIONS			[Clint wheeze-laughs.]	stage
+ABOUT_THE_GAME	comments	NO	Well, I guess Griffin 'cause he told Dad to do it.	Justin
+ABOUT_THE_GAME	comments	NO	That's fair. Griffin's a monster-maker.	Travis
+ABOUT_THE_GAME	comments	NO	You've taught me a lesson, I've learned the lesson.	Clint
+ABOUT_THE_GAME	comments	NO	He taught you to kill!	Travis
+ABOUT_THE_GAME	comments	NO	No, [strongly] to obliterate.	Clint
+ABOUT_THE_GAME	comments	NO	To obliterate, yeah.	Justin
+ABOUT_THE_GAME	comments	NO	Dad unmade an existence. Three!	Travis
+STAGE_DIRECTIONS			[crosstalk]	stage
+NARRATION_AND_DESCRIPTION	description	YES	So what's up with [crosstalk] --They got any gold?	Justin
+NARRATION_AND_DESCRIPTION	description	YES	[laughing, snorting] What's the loot? What's the fat loot?	Travis
+MECHANICS		YES	Do we need to roll Need?	Travis
+MECHANICS		NO	Check the loot table.	Justin
+MECHANICS		NO	I roll Need.	Travis
+ABOUT_THE_GAME	comments	NO	See if their very existence left behind any gold.	Justin
+ABOUT_THE_GAME	comments	NO	Maybe some kind of like, power from like, unmaking a human.	Travis
+NARRATION_AND_DESCRIPTION	events	NO	You strip some copper wire out of the wiry robot, and you think you can sell that for some fuckin' meth money, baby.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	You do have Magic Brian's blaster arm, still. Which-- it seems dormant now, but you can still feel a bit of magical energy still coursing through it.	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	I hand it to Taako.	Travis
+ABOUT_THE_GAME	comments	NO	I don't have any use for this magic shit.	Travis
+IN-CHARACTER_DIALOGUE			Thanks.	Taako
+ABOUT_THE_GAME	comments	NO	I could use a spare arm.	Clint
+ABOUT_THE_GAME	comments	NO	You earn that spare arm and you'll get it!	Travis
+ABOUT_THE_GAME	comments	NO	Uh, I'm the guy that just obliterated three dudes?	Clint
+ABOUT_THE_GAME	comments	NO	You're not-- you're not Mr. Potatohead, you can't just swap your arms out interchangeably...	Justin
+MECHANICS		NO	No, not till you reach level 8.	Travis
+MECHANICS		NO	He is level 8!	Griffin
+NON-CONTENT			Oh!	Travis
+ABOUT_THE_GAME	comments	NO	Let's have a fucking arm party!	Griffin
+ABOUT_THE_GAME	comments	NO	I went to an arm party once, trust me, you don't... you don't wanna...	Travis
+ABOUT_THE_GAME	comments	NO	You take your arm off, you throw it in a bowl… [trails off, muttering]	Griffin
+ABOUT_THE_GAME	comments	NO	Can we celebrate my victory?	Clint
+STAGE_DIRECTIONS			[victory music]	stage
+ABOUT_THE_GAME	comments	NO	No!	Travis
+ABOUT_THE_GAME	comments	YES	Why?	Clint
+NON-CONTENT			?	Clint
+ABOUT_THE_GAME	comments	NO	Griffin, can you do the-- tell Dad he solved your whatever puzzle?	Justin
+ABOUT_THE_GAME	comments	NO	Yeah, you solved your-- you solved my 'doing a thing that you learned to do at your class level 2' puzzle.	Griffin
+NON-CONTENT			Yes!	Clint
+ABOUT_THE_GAME	comments	NO	You solved my 'thing you've been able to do for literally over a year now' puzzle.	Griffin
+ABOUT_THE_GAME	comments	NO	And I did it by completely obliterating three of the most beloved NPCs we've ever had on the show!	Clint
+STAGE_DIRECTIONS			[laughs]	stage
+ABOUT_THE_GAME	comments	NO	Hey, maybe they'll come back, there's always a possib-- no, they're done.	Griffin
+ABOUT_THE_GAME	comments	NO	No. They're gone.	Clint
+NARRATION_AND_DESCRIPTION	actions	NO	Let's move forward down the pipe where we were going on the conveyor belt.	Travis
+NON-CONTENT			Okay, yeah, you--	Griffin
+ABOUT_THE_GAME	comments	NO	When we got stopped by these nerds.	Justin
+NON-CONTENT			Yeah… [stammers]	Griffin
+ABOUT_THE_GAME	comments	NO	Also, Carey's been really quiet, could Carey say something like, great job, guys!	Travis
+STAGE_DIRECTIONS			[crosstalk]	stage
+NARRATION_AND_DESCRIPTION	description	YES	Yeah, is she kind of stunned by my obliterations?	Clint
+NARRATION_AND_DESCRIPTION	description	NO	Yeah, she's actually pretty blown away, she's like,	Griffin
+IN-CHARACTER_DIALOGUE			Wow, Merle, I didn't know you had that in you! That was some savage shit!	Carey
+IN-CHARACTER_DIALOGUE			Yeah! I didn't either!	Merle
+IN-CHARACTER_DIALOGUE			… I did kill all three of them.	Magnus
+IN-CHARACTER_DIALOGUE			No you didn't!	Merle
+IN-CHARACTER_DIALOGUE			Yeah, no, Magnus, you did a great job too, I mean, I definitely--	Carey
+IN-CHARACTER_DIALOGUE			I destroyed the robit bodies.	Magnus
+IN-CHARACTER_DIALOGUE			I definitely loosened the lid of that there pickle jar, but let's-- you know what? Let's split the-- we'll split it four ways, we all did-- Oh, sorry, five-- five ways, Noelle, sorry...	Carey
+NARRATION_AND_DESCRIPTION	description	NO	Noelle, actually, is being extremely quiet. Noelle hasn't actually said anything this whole time since the three ghost robots showed up. And she is just kinda floating sullenly [Travis: Oh, wait a minute…] away from you down the tunnel with her flashlight on.	Griffin
+IN-CHARACTER_DIALOGUE			Pst! Guys! Noelle's a spirit in a robot body!	Magnus
+IN-CHARACTER_DIALOGUE			Ohhhhh man.	Merle
+IN-CHARACTER_DIALOGUE			She's got the fuse! She's gotta be real bummed out about this news!	Magnus
+IN-CHARACTER_DIALOGUE			Taako, go talk to her.	Merle
+IN-CHARACTER_DIALOGUE			C'mon, guys, we gotta move on, we're almost- we’re almost there.	Noelle
+IN-CHARACTER_DIALOGUE			Noelle... [Noelle: Yeah?] I recognize now that you are a spirit, in a fuse, in a robot body, but I want you to know that I appreciate you as a member of this team, you've helped us a lot--	Magnus
+IN-CHARACTER_DIALOGUE			[crosstalk] I can't-- I don't-- I don't know what you-- I really don't know what you're talking about.	Noelle
+IN-CHARACTER_DIALOGUE			Okay, whenever you're ready.	Magnus
+IN-CHARACTER_DIALOGUE			I mean, holistically speaking, you've gone from being a sentient AI to being a soul trapped in a machine... I think it's a zero-sum game, [Magnus: Yeah] you didn't have any illusions about your own agency, right?	Taako
+IN-CHARACTER_DIALOGUE			Is this like, funny? Is this, like–[Magnus: No!] are you joking about this?	Noelle
+IN-CHARACTER_DIALOGUE			What? No, I'm not joking, I mean, I, I mean, you thought you were a robot before, right? [heavy silence] ...Oh, no.	Taako
+NARRATION_AND_DESCRIPTION	events	NO	She says, um... [trails off]	Griffin
+IN-CHARACTER_DIALOGUE			Oh, gosh. Okay. Someone's really stepped in the old spectral doo-doo now, eh? Um hm...	Taako
+IN-CHARACTER_DIALOGUE			I-- I did-- I did-- I died. [“Hogsbottom” starts to play] Oh my God, I'm remembering now. I--I-- my name is Noelle Redcheek. My family runs a cider press out in- out in Hogsbottom. I was ridin' our donkey into town and I was making a delivery to some dive bar, the… it was The Sleeping Giant. And it was in town, in Phandalin. And we heard--	Noelle
+IN-CHARACTER_DIALOGUE			Never heard of it.	Merle
+IN-CHARACTER_DIALOGUE			No.	Magnus
+IN-CHARACTER_DIALOGUE			Nope.	Taako
+IN-CHARACTER_DIALOGUE			And we heard screams from outside and there was this man, he came downstairs, he called himself- called himself Bluejeans. [Magnus gasps] And he was so kind, he told us to hide in the stockroom and he-- he-- he hid us and he fought off this dwarf that was on fire, and he got him out of the bar and we thought we were safe. And then the whole world got burned up.	Noelle
+STAGE_DIRECTIONS			[crosstalk as the characters react]	stage
+IN-CHARACTER_DIALOGUE			That sucks. That is bad news.	Merle
+IN-CHARACTER_DIALOGUE			Yeah. Woof. Woof. Whoo. Hate to hear that, you know. I’m so sorry.	Taako
+IN-CHARACTER_DIALOGUE			Ah, too bad.	Merle
+IN-CHARACTER_DIALOGUE			I'm so sorry.	Taako
+IN-CHARACTER_DIALOGUE			But what matters now is that you're technically alive.	Magnus
+IN-CHARACTER_DIALOGUE			Well, no, not technically...	Merle
+IN-CHARACTER_DIALOGUE			No, literally, technically. She, you're in a techno body so you're technically alive.	Magnus
+NARRATION_AND_DESCRIPTION	events	NO	She actually starts laughing.	Griffin
+ABOUT_THE_GAME	comments	NO	Oh good.	Travis
+STAGE_DIRECTIONS			[Hogsbottom fades out]	stage
+NARRATION_AND_DESCRIPTION	events	NO	She's like, [laughs awkwardly]	Griffin
+IN-CHARACTER_DIALOGUE			I'm sorry, I just remembered, I was in that back room and everything was getting burned up, and I remember my last thought was that the whole world was getting destroyed. And the fact that I'm here, and y'all are still here... I thought the world was ending, I thought my whole family was gone, but the world's still here, right? It's still here!	Noelle
+IN-CHARACTER_DIALOGUE			Yep!	Magnus
+IN-CHARACTER_DIALOGUE			Phandalin not so much...	Merle
+IN-CHARACTER_DIALOGUE			Let's parse the question. Was your family in Phandalin?	Taako
+IN-CHARACTER_DIALOGUE			No, they're out in Hogsbottom.	Noelle
+STAGE_DIRECTIONS			[crosstalk as the characters react with relief, "Yeah, you're good," "They're okay then," etc.]	stage
+IN-CHARACTER_DIALOGUE			Do y'all know what happened to Phandalin?	Noelle
+IN-CHARACTER_DIALOGUE			Uh, no... I heard-- you just said that it burned? You said that, right? That was you? Yeah.	Magnus
+IN-CHARACTER_DIALOGUE			Yeah, yeah.	Merle
+IN-CHARACTER_DIALOGUE			[choosing words carefully] We are part of the people that try to keep things like what happened in Phandalin from happening. [Merle: Yeah, yeah, yeah.] We have... a pretty good success rate, if you don't count that one, which, we can all agree, was a world-class boner. [Clint laughing] Now, if you want to keep what happened to you from happening to other people, it is imperative that you aid us down here in completing our mission.	Taako
+IN-CHARACTER_DIALOGUE			In this. In this thing now.	Magnus
+IN-CHARACTER_DIALOGUE			You're saying that this thing that's turning this lab to crystal is trying to do to the world like what happened in Phandalin?	Noelle
+IN-CHARACTER_DIALOGUE			You can save the world, Noelle.	Taako
+IN-CHARACTER_DIALOGUE			All right then. Let's fuck 'em up.	Noelle
+IN-CHARACTER_DIALOGUE			Heeeell yeah.	Taako
+NARRATION_AND_DESCRIPTION	events	NO	The fuse pops out of her chest. Pops out of the bot.	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	And it seems to be floating in midair, not like smoothly-- it's almost like the spirit inside it is pushing up on it, like, imagine a bird sort of like moving its birdcage just by flying really hard into the top of it. This is like an extreme amount of effort that this soul is using to push its fuse upward into the air. And you see it move its way over into the pile of parts that you left on the floor that were the robots whose asses you just kicked.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	And she floats into the big gorilla suit's body [Clint: Oh, yeah.]	Griffin
+NARRATION_AND_DESCRIPTION	description	NO	and you see that mech, you see that robot stand up and pick up the wires and sort of tie it around its back and you see it pick up one of the arms left over from Magic Brian's robot, and strap that onto itself, and take some of the plating off that one, and take some of the plating off the old Noelle bot--	Griffin
+NARRATION_AND_DESCRIPTION	actions	NO	And I throw the Buster arm and say,	Justin
+IN-CHARACTER_DIALOGUE			Take-- Let's go to fuck-up town!	Taako
+NARRATION_AND_DESCRIPTION	description	NO	You see a fucking port open on this robot's side that catches that Buster arm in mid-air.	Griffin
+NARRATION_AND_DESCRIPTION	events	NO	And these four robots combine fuckin' Voltron style with Noelle in the middle of it. And she says:	Griffin
+IN-CHARACTER_DIALOGUE			Hero time.	Noelle
+NARRATION_AND_DESCRIPTION	events	NO	--and cocks her gun arm.	Griffin
+
