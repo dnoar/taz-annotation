@@ -20,6 +20,8 @@ from sklearn_crfsuite import metrics
 
 #http://sklearn-crfsuite.readthedocs.io/en/latest/tutorial.html
 
+PRONOUN_LIST = set(['i','me','my','mine','you','your','yours','he','him','his','she','her','hers','we','us','our','ours','they','them','their','theirs'])
+
 
 #Location of training, dev, and test sets
 TRAIN_SOURCE = './gold_standard_all_grp_train.txt'
@@ -92,6 +94,11 @@ def sent2features(doc, i):
     for word_index in range(len(word_list)):
         features["word{}".format(word_index)] = word_list[word_index]
         
+    pro_index = 0
+    for pro in set(word_list).intersection(PRONOUN_LIST):
+        features["pro{}".format(pro_index)] = pro
+        pro_index += 1
+        
     
     if i > 0:
         sent_text0 = doc[i-1][0]
@@ -99,6 +106,12 @@ def sent2features(doc, i):
         
         #lower-case and split the sentence
         word_list0 = data_sans_punct0.lower().split()
+        '''
+        pro_index = 0
+        for pro in set(word_list0).intersection(PRONOUN_LIST):
+            features["-1:pro{}".format(pro_index)] = pro
+            pro_index += 1
+        ''' 
         speaker0 = doc[i-1][1]
         features.update({
             '-1:speaker': speaker0.lower(),
@@ -110,7 +123,14 @@ def sent2features(doc, i):
     if i < len(doc)-1:
         sent_text1 = doc[i+1][0]
         data_sans_punct1 = ''.join(l for l in sent_text1 if l not in string.punctuation)
+        
         word_list1 = data_sans_punct1.lower().split()
+        
+        pro_index = 0
+        for pro in set(word_list1).intersection(PRONOUN_LIST):
+            features["+1:pro{}".format(pro_index)] = pro
+            pro_index += 1
+        
         speaker1 = doc[i+1][1]
         features.update({
             '+1:speaker': speaker1.lower(),
