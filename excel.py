@@ -8,13 +8,6 @@ The Annotation Zone
 Script to put compare tags from 3 annotators in an excel spreadsheet
 
 To Do:
-    Get rid of decision making
-    Make contingency tables for all 3 pairs of annotators and calculate kappa for each pair
-    Start showing agreement for subtags, decision making, and questions
-    Update to work with 2 annotators (mostly working)
-    Update to work with 4 annotators (maybe mostly working except for stats)
-    Find and display pairwise agreement total per tag
-    Calculate predicated agreement based on each users distribution of tags
 """
     
 from openpyxl import Workbook
@@ -27,6 +20,8 @@ class XML_comp():
         self.sents = []
         self.sent_nums = []
         self.hum_sent_nums = []     # only human tagged sentences
+        self.a1_sns = []            # what annoatator 1 tagged
+        self.a2_sns = []            # what annoatator 2 tagged
         # main tags = 'NARRATION_AND_DESCRIPTION', 'ABOUT_THE_GAME', 'MECHANICS', 'NON-GAME_RELATED', 'NON-CONTENT'
         # main types is subtags from main tags
         # main is both tag and subtag
@@ -134,11 +129,13 @@ class XML_comp():
         for sent in self.annot2['main tag']:
             if self.annot2['main tag'][sent] == 'NARRATION_AND_DESCRIPTION' or self.annot2['main tag'][sent] == 'ABOUT_THE_GAME':
                 self.annot2['main'][sent] = self.annot2['main tag'][sent] + ': ' + self.annot2['main type'][sent]
-                self.annot2_freq[self.annot2['main'][sent]] += 1
+                if int(sent[1:]) in self.hum_sent_nums:
+                    self.annot2_freq[self.annot2['main'][sent]] += 1
             else:
                 self.annot2['main'][sent] = self.annot2['main tag'][sent]
                 if self.annot2['main tag'][sent] != 'IN-CHARACTER_DIALOGUE' and self.annot2['main tag'][sent] != 'STAGE_DIRECTIONS':
-                    self.annot2_freq[self.annot2['main'][sent]] += 1
+                    if int(sent[1:]) in self.hum_sent_nums:
+                        self.annot2_freq[self.annot2['main'][sent]] += 1
         for sent in self.annot2['main type']:
             if self.annot2['main type'][sent] == 'retcon':
                 try:
@@ -168,16 +165,21 @@ class XML_comp():
                 except:
                     pass
         for sent in self.annot3['main tag']:
-            if self.annot3['main tag'][sent] == 'NARRATION_AND_DESCRIPTION' or self.annot3['main tag'][sent] == 'ABOUT_THE_GAME' or self.annot3['main tag'][sent] == 'MECHANICS':
+            if self.annot3['main tag'][sent] == 'NARRATION_AND_DESCRIPTION' or self.annot3['main tag'][sent] == 'ABOUT_THE_GAME':
                 self.annot3['main'][sent] = self.annot3['main tag'][sent] + ': ' + self.annot3['main type'][sent]
-                self.annot3_freq[self.annot3['main'][sent]] += 1
+                if int(sent[1:]) in self.hum_sent_nums:
+                    self.annot3_freq[self.annot3['main'][sent]] += 1
             else:
                 self.annot3['main'][sent] = self.annot3['main tag'][sent]
                 if self.annot3['main tag'][sent] != 'IN-CHARACTER_DIALOGUE' and self.annot3['main tag'][sent] != 'STAGE_DIRECTIONS':
-                    self.annot3_freq[self.annot3['main'][sent]] += 1
+                    if int(sent[1:]) in self.hum_sent_nums:
+                        self.annot3_freq[self.annot3['main'][sent]] += 1
         for sent in self.annot3['main type']:
             if self.annot3['main type'][sent] == 'retcon':
+                try:
                     self.annot3['main type'][sent] += ": " + re.findall(r's.*$', self.annot3['renege'][sent])[0]
+                except:
+                    pass
     def find_data4(self, file_name):
         """
         Reads an xml file and puts its data in annot3
@@ -201,7 +203,7 @@ class XML_comp():
                 except:
                     pass
         for sent in self.annot4['main tag']:
-            if self.annot4['main tag'][sent] == 'NARRATION_AND_DESCRIPTION' or self.annot4['main tag'][sent] == 'ABOUT_THE_GAME' or self.annot4['main tag'][sent] == 'MECHANICS':
+            if self.annot4['main tag'][sent] == 'NARRATION_AND_DESCRIPTION' or self.annot4['main tag'][sent] == 'ABOUT_THE_GAME':
                 self.annot4['main'][sent] = self.annot4['main tag'][sent] + ': ' + self.annot4['main type'][sent]
                 self.annot4_freq[self.annot4['main'][sent]] += 1
             else:
@@ -223,6 +225,9 @@ class XML_comp():
         else:
             ws.cell(row=row, column=ag_col).style = 'Bad'
     def table_1_2(self, ws):
+        """
+        prints contingency table between annotator 1 and 2 for main tag
+        """
         matrix = defaultdict(int)
         for sent in self.hum_sent_nums:
             if self.annot1['main tag']['s'+str(sent)] != 'IN-CHARACTER_DIALOGUE' and self.annot1['main tag']['s'+str(sent)] != 'STAGE_DIRECTIONS':
@@ -246,11 +251,17 @@ class XML_comp():
             rows += 1
             cols = 2
     def tag_counter(self, ws, start_row, column, letter):
+        """
+        prints an excel formula to count tags
+        """
         rows = start_row
         for tag in self.main_tags:
             ws.cell(row=rows, column=column, value='=COUNTIF(Data!' + letter + ':' + letter + ', "' + tag + '")')
             rows += 1
     def table_1_2_all(self, ws):
+        """
+        prints contingency table between annotator 1 and 2 for everything
+        """
         matrix = defaultdict(int)
         for sent in self.hum_sent_nums:
             if self.annot1['main']['s'+str(sent)] != 'IN-CHARACTER_DIALOGUE' and self.annot1['main']['s'+str(sent)] != 'STAGE_DIRECTIONS':
@@ -328,6 +339,7 @@ class two_annots(XML_comp):
             ws.cell(row=row, column=col+3).style = 'Bad'
     def disagree(self):
         length = len(self.hum_sent_nums)
+        disagreements = 0
         for i in range(len(self.hum_sent_nums)-15):
             check = self.hum_sent_nums[i:i+15]
             total = 15
@@ -349,17 +361,14 @@ class two_annots(XML_comp):
                     if wrong/total < .7:
                         break
                 check.reverse()
+                disagreements += wrong
                 for sent in check:
                     if self.annot1['main']['s'+str(sent)] == self.annot2['main']['s'+str(sent)]:
                         check.remove(sent)
                     else:
                         break
-                for sent in check:
-                    try:
-                        self.hum_sent_nums.remove(sent)
-                    except ValueError:
-                        pass
                 print(length-len(self.hum_sent_nums))
+        return disagreements
                     
     def stats(self, file_name):
         ws = self.wb.create_sheet("tables")
@@ -466,7 +475,297 @@ class two_annots(XML_comp):
         ws.cell(row=17, column=13, value='=(M16-M15)/(1-M15)')
         
         self.wb.save(file_name)
-
+        
+class gold(XML_comp):
+    """
+    this class is using information from the gold standard put in annot1
+    so annotator 1 is in annot2 and annotator 2 is in annot3
+    """
+    def print_to_excel(self, file_name):
+        ws = self.wb.active
+        ws.title = "Data"
+        # columns headers
+        ws.cell(row=1, column=3, value="annotator 1")
+        ws.cell(row=1, column=6, value="annotator 2")
+        ws.cell(row=2, column=1, value="sent#")
+        ws.cell(row=2, column=2, value="tag")
+        ws.cell(row=2, column=3, value="type")
+        ws.cell(row=2, column=4, value="question")
+        ws.cell(row=2, column=5, value="tag")
+        ws.cell(row=2, column=6, value="type")
+        ws.cell(row=2, column=7, value="question")
+        ws.cell(row=2, column=8, value="agree")
+        ws.cell(row=2, column=9, value="sent")
+        row = 3
+        # print each human tagged sentence with its tags
+        for num in self.hum_sent_nums:
+            sent = "s" + str(num)
+            ws.cell(row=row, column=1, value=sent)
+            ws.cell(row=row, column=2, value=self.annot2['main tag'][sent])
+            ws.cell(row=row, column=3, value=self.annot2['main type'][sent])
+            ws.cell(row=row, column=4, value=self.annot2['question'][sent])
+            ws.cell(row=row, column=5, value=self.annot3['main tag'][sent])
+            ws.cell(row=row, column=6, value=self.annot3['main type'][sent])
+            ws.cell(row=row, column=7, value=self.annot3['question'][sent])
+            ws.cell(row=row, column=8, value=self.agree_check(sent))
+            ws.cell(row=row, column=9, value=self.sents[num+1])
+            # call self.color to color everything
+            self.color(row, sent, ws, 8)
+            row += 1
+        self.wb.save(file_name)
+        
+    def agree_check(self, sent):
+        """
+        checks if there is universal agreement for every tag
+        returns yes or no since that is what should be printed in excel
+        """
+        if self.annot2['main tag'][sent] == self.annot3['main tag'][sent] and \
+        self.annot2['main type'][sent] == self.annot3['main type'][sent] and \
+        self.annot2['question'][sent] == self.annot3['question'][sent]:
+            return "yes"
+        else:
+            return "no"
+        
+    def color_helper(self, tag, col, row, sent, ws):
+        """
+        determines how much agreement there is and colors the attribute accordingly
+        """
+        if self.annot2[tag][sent] == self.annot3[tag][sent]:
+            ws.cell(row=row, column=col).style = 'Good'
+            ws.cell(row=row, column=col+3).style = 'Good'
+        else:
+            ws.cell(row=row, column=col).style = 'Bad'
+            ws.cell(row=row, column=col+3).style = 'Bad'
+            
+    def table_1_2(self, ws):
+        """
+        prints contingency table between annotator 1 and 2 for main tag
+        """
+        matrix = defaultdict(int)
+        for sent in self.hum_sent_nums:
+            matrix[(self.annot2['main tag']['s'+str(sent)], self.annot3['main tag']['s'+str(sent)])] += 1
+        ws.cell(row=1, column=2, value='NARRATION_AND_DESCRIPTION')
+        ws.cell(row=1, column=3, value='ABOUT_THE_GAME')
+        ws.cell(row=1, column=4, value='MECHANICS')
+        ws.cell(row=1, column=5, value='NON-GAME_RELATED')
+        ws.cell(row=1, column=6, value='NON-CONTENT')
+        ws.cell(row=2, column=1, value='NARRATION_AND_DESCRIPTION')
+        ws.cell(row=3, column=1, value='ABOUT_THE_GAME')
+        ws.cell(row=4, column=1, value='MECHANICS')
+        ws.cell(row=5, column=1, value='NON-GAME_RELATED')
+        ws.cell(row=6, column=1, value='NON-CONTENT')
+        rows = 2
+        cols = 2
+        for tag1 in self.main_tags:
+            for tag2 in self.main_tags:
+                ws.cell(row=rows, column=cols, value=matrix[(tag1, tag2)])
+                cols += 1
+            rows += 1
+            cols = 2
+    
+    def table_1_2_all(self, ws):
+        """
+        prints contingency table between annotator 1 and 2 for everything
+        """
+        matrix = defaultdict(int)
+        for sent in self.hum_sent_nums:
+            matrix[(self.annot2['main']['s'+str(sent)], self.annot3['main']['s'+str(sent)])] += 1
+        print(matrix)
+        rows = 2
+        cols = 11
+        for tag in self.all_tags:
+            ws.cell(row=1, column=cols, value=tag)
+            ws.cell(row=rows, column=10, value=tag)
+            rows += 1
+            cols += 1
+        rows = 2
+        cols = 11
+        for tag1 in self.all_tags:
+            for tag2 in self.all_tags:
+                ws.cell(row=rows, column=cols, value=matrix[(tag1, tag2)])
+                cols += 1
+            rows += 1
+            cols = 11
+    
+    def disagree(self):
+        length = len(self.hum_sent_nums)
+        disagreements = 0
+        overall = 0
+        i = 0
+        while i < (len(self.hum_sent_nums)-15):
+            check = self.hum_sent_nums[i:i+15]
+            total = 15
+            wrong = 0
+            for sent in check:
+                if self.annot2['main']['s'+str(sent)] != self.annot3['main']['s'+str(sent)]:
+                    wrong += 1
+            
+            if wrong/total >= .7:
+                j = i + 1
+                while j < len(self.hum_sent_nums):
+                    check.append(self.hum_sent_nums[j])
+                    total = len(check)
+                    wrong = 0
+                    for sent in check:
+                        if self.annot2['main']['s'+str(sent)] != self.annot3['main']['s'+str(sent)]:
+                            wrong += 1
+                    j += 1
+                    if wrong/total < .7:
+                        break
+                check.reverse()
+                for sent in check:
+                    if self.annot2['main']['s'+str(sent)] == self.annot3['main']['s'+str(sent)]:
+                        check.remove(sent)
+                        j -= 1
+                    else:
+                        break
+                disagreements += wrong
+                overall += total
+                i = j
+            i += 1
+        return disagreements, overall
+    
+    def question_matrix(self, ws):
+        matrix = defaultdict(int)
+        for sent in self.hum_sent_nums:
+            matrix[(self.annot2['question']['s'+str(sent)], self.annot3['question']['s'+str(sent)])] += 1
+        ws.cell(row=40, column=2, value='YES')
+        ws.cell(row=40, column=3, value='NO')
+        ws.cell(row=40, column=4, value='N/A')
+        ws.cell(row=41, column=1, value='YES')
+        ws.cell(row=42, column=1, value='NO')
+        ws.cell(row=43, column=1, value='N/A')
+        rows = 41
+        cols = 2
+        q_types = ['YES', 'NO', ' ']
+        for tag1 in q_types:
+            for tag2 in q_types:
+                ws.cell(row=rows, column=cols, value=matrix[(tag1, tag2)])
+                cols += 1
+            rows += 1
+            cols = 2
+            
+    
+    def stats(self, file_name):
+        ws = self.wb.create_sheet("tables")
+        self.table_1_2(ws)
+        self.table_1_2_all(ws)
+        # main tag IAA chart
+        ws.cell(row=12, column=1, value='NARRATION_AND_DESCRIPTION')
+        ws.cell(row=13, column=1, value='ABOUT_THE_GAME')
+        ws.cell(row=14, column=1, value='MECHANICS')
+        ws.cell(row=15, column=1, value='NON-GAME_RELATED')
+        ws.cell(row=16, column=1, value='NON-CONTENT')
+        # count tag usage
+        ws.cell(row=11, column=2, value='annot 1')
+        self.tag_counter(ws, 12, 2, 'B')
+        ws.cell(row=11, column=3, value='annot 2')
+        self.tag_counter(ws, 12, 3, 'E')
+        # count agreement from matrix
+        ws.cell(row=11, column=4, value='agreement')
+        ws.cell(row=12, column=4, value='=B2')
+        ws.cell(row=13, column=4, value='=C3')
+        ws.cell(row=14, column=4, value='=D4')
+        ws.cell(row=15, column=4, value='=E5')
+        ws.cell(row=16, column=4, value='=F6')
+        # calculate stats
+        ws.cell(row=17, column=2, value='=sum(B12:B16)')
+        ws.cell(row=17, column=3, value='=sum(C12:C16)')
+        ws.cell(row=17, column=4, value='=sum(D12:D16)')
+        ws.cell(row=18, column=4, value='=D17/B17')
+        ws.cell(row=12, column=5, value='=B12/B17')
+        ws.cell(row=13, column=5, value='=B13/B17')
+        ws.cell(row=14, column=5, value='=B14/B17')
+        ws.cell(row=15, column=5, value='=B15/B17')
+        ws.cell(row=16, column=5, value='=B16/B17')
+        ws.cell(row=12, column=6, value='=C12/C17')
+        ws.cell(row=13, column=6, value='=C13/C17')
+        ws.cell(row=14, column=6, value='=C14/C17')
+        ws.cell(row=15, column=6, value='=C15/C17')
+        ws.cell(row=16, column=6, value='=C16/C17')
+        ws.cell(row=12, column=7, value='=E12*F12')
+        ws.cell(row=13, column=7, value='=E13*F13')
+        ws.cell(row=14, column=7, value='=E14*F14')
+        ws.cell(row=15, column=7, value='=E15*F15')
+        ws.cell(row=16, column=7, value='=E16*F16')
+        ws.cell(row=17, column=7, value='=sum(G12:G16)')
+        ws.cell(row=19, column=5, value='κ')
+        ws.cell(row=19, column=6, value='=(D18-G17)/(1-G17)')
+        
+        # build full tag agreement chart
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=10, value=tag)
+            rows += 1
+        # print tag usage
+        ws.cell(row=20, column=11, value='annot 1')
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=11, value=self.annot2_freq[tag])
+            rows += 1
+        
+        ws.cell(row=20, column=12, value='annot 2')
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=12, value=self.annot3_freq[tag])
+            rows += 1
+        # get agreement from matrix
+        ws.cell(row=20, column=13, value='agreement')
+        ws.cell(row=21, column=13, value='=K2')
+        ws.cell(row=22, column=13, value='=L3')
+        ws.cell(row=23, column=13, value='=M4')
+        ws.cell(row=24, column=13, value='=N5')
+        ws.cell(row=25, column=13, value='=O6')
+        ws.cell(row=26, column=13, value='=P7')
+        ws.cell(row=27, column=13, value='=Q8')
+        ws.cell(row=28, column=13, value='=R9')
+        ws.cell(row=29, column=13, value='=S10')
+        ws.cell(row=30, column=13, value='=T11')
+        # calculate stats
+        ws.cell(row=31, column=11, value='=sum(K21:K30)')
+        ws.cell(row=31, column=12, value='=sum(L21:L30)')
+        ws.cell(row=31, column=13, value='=sum(M21:M30)')
+        ws.cell(row=32, column=13, value='=M31/K31')
+        
+        ws.cell(row=20, column=14, value='P(tag|a1)')
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=14, value='=K'+str(rows)+'/'+str(len(self.hum_sent_nums)))
+            rows += 1
+            
+        ws.cell(row=20, column=15, value='P(tag|a2)')
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=15, value='=L'+str(rows)+'/'+str(len(self.hum_sent_nums)))
+            rows += 1
+        
+        rows = 21
+        for tag in self.all_tags:
+            ws.cell(row=rows, column=16, value='=N'+str(rows)+'*'+'O'+str(rows))
+            rows += 1
+        ws.cell(row=rows, column=16, value='=sum(P21:P30)')
+        
+        ws.cell(row=33, column=14, value='κ')
+        ws.cell(row=33, column=15, value='=(M32-P31)/(1-P31)')
+        
+        ws.cell(row=15, column=12, value='predicted:')
+        ws.cell(row=16, column=12, value='observed:')
+        ws.cell(row=17, column=12, value='κ')
+        ws.cell(row=15, column=13, value='=0.7*G17+0.3*P31')
+        ws.cell(row=16, column=13, value='=0.7*D18+0.3*M32')
+        ws.cell(row=17, column=13, value='=(M16-M15)/(1-M15)')
+        # disagreement clusters
+        dis, overall = self.disagree()
+        ws.cell(row=34, column=10, value='total clusters')
+        ws.cell(row=34, column=11, value=overall)
+        ws.cell(row=34, column=12, value=overall/len(self.hum_sent_nums))
+        ws.cell(row=36, column=10, value='disagreement clusters')
+        ws.cell(row=36, column=11, value=dis)
+        ws.cell(row=36, column=12, value='='+ str(dis)+'/('+str(len(self.hum_sent_nums))+'-M31)')
+        
+        self.question_matrix(ws)
+        
+        self.wb.save(file_name)
 
 class three_annots(XML_comp):
     def print_to_excel(self, file_name):
@@ -843,16 +1142,59 @@ class four_annots(XML_comp):
         self.wb.save(file_name)
         
 if __name__ == '__main__':
-    thingy = two_annots()
-    thingy.find_data1('34_alex.xml')
-    thingy.find_data2('34_danielle.xml')
-    thingy.print_to_excel('34_2.xlsx')
-    thingy.disagree()
-    thingy.stats('34_2.xlsx')
-    thingy2 = two_annots()
-    thingy2.find_data1('35_Bingyang.xml')
-    thingy2.find_data2('35_Kirsten.xml')
-    thingy2.disagree()
-    thingy2.print_to_excel('35_2.xlsx')
-    thingy2.stats('35_2.xlsx')
+#    thingy30 = gold()
+#    thingy30.find_data1('30_goldstandard.xml')
+#    thingy30.find_data2('30_alex1.xml')
+#    thingy30.find_data3('30_Kirsten.xml')
+#    thingy30.print_to_excel('30_3.xlsx')
+#    thingy30.stats('30_3.xlsx')
+#    
+#    thingy31 = gold()
+#    thingy31.find_data1('31_goldstandard.xml')
+#    thingy31.find_data2('31_Bingyang.xml')
+#    thingy31.find_data3('31_danielle.xml')
+#    thingy31.print_to_excel('31_3.xlsx')
+#    thingy31.stats('31_3.xlsx')
+#    
+#    thingy32 = gold()
+#    thingy32.find_data1('32_goldstandard.xml')
+#    thingy32.find_data2('32_alex.xml')
+#    thingy32.find_data3('32_Bingyang.xml')
+#    thingy32.print_to_excel('32_3.xlsx')
+#    thingy32.stats('32_3.xlsx')
+#    
+#    thingy33 = gold()
+#    thingy33.find_data1('33_goldstandard.xml')
+#    thingy33.find_data2('33_danielle.xml')
+#    thingy33.find_data3('33_Kirsten.xml')
+#    thingy33.print_to_excel('33_3.xlsx')
+#    thingy33.stats('33_3.xlsx')
     
+    thingy34 = gold()
+    thingy34.find_data1('34_goldstandard.xml')
+    thingy34.find_data2('34_alex.xml')
+    thingy34.find_data3('34_danielle.xml')
+    thingy34.print_to_excel('test.xlsx')
+    thingy34.stats('test.xlsx')
+    
+#    thingy35 = gold()
+#    thingy35.find_data1('35_goldstandard.xml')
+#    thingy35.find_data2('35_Bingyang.xml')
+#    thingy35.find_data3('35_Kirsten.xml')
+#    thingy35.print_to_excel('35_3.xlsx')
+#    thingy35.stats('35_3.xlsx')
+#    
+#    thingy36 = gold()
+#    thingy36.find_data1('36_goldstandard.xml')
+#    thingy36.find_data2('36_alex.xml')
+#    thingy36.find_data3('36_Kirsten.xml')
+#    thingy36.print_to_excel('36_3.xlsx')
+#    thingy36.stats('36_3.xlsx')
+#    
+#    thingy37 = gold()
+#    thingy37.find_data1('37_goldstandard.xml')
+#    thingy37.find_data2('37_Bingyang.xml')
+#    thingy37.find_data3('37_danielle.xml')
+#    thingy37.print_to_excel('37_3.xlsx')
+#    thingy37.stats('37_3.xlsx')
+#    
